@@ -1,0 +1,28 @@
+{
+  "name": "EastsideConsultants",
+  "homepage": "http://connerlaursen.github.io/EastsideConsultants/",
+  "version": "1.0.0",
+  "description": "New website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm start",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connerlaursen/EastsideConsultants.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connerlaursen/EastsideConsultants/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0"
+  }
+}
