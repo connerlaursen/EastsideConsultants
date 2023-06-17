@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.10e6d449.css",
-    "main.js": "/Portfolio-React/static/js/main.49e0c844.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/Portfolio-React/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/space.jpg": "/Portfolio-React/static/media/space.04c09340b1af6a893a59.jpg",
-    "static/media/image-self2.png": "/Portfolio-React/static/media/image-self2.2ba9ff5f80c225700a1a.png",
-    "static/media/space-tile.jpg": "/Portfolio-React/static/media/space-tile.eac3a1f95dc5a5baac7d.jpg",
-    "static/media/resume.pdf": "/Portfolio-React/static/media/resume.ce05404353d65d7f8a00.pdf",
-    "index.html": "/Portfolio-React/index.html",
-    "main.10e6d449.css.map": "/Portfolio-React/static/css/main.10e6d449.css.map",
-    "main.49e0c844.js.map": "/Portfolio-React/static/js/main.49e0c844.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/Portfolio-React/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/EastsideConsultants/static/css/main.cac18577.css",
+    "main.js": "/EastsideConsultants/static/js/main.318e0030.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/space.jpg": "/EastsideConsultants/static/media/space.04c09340b1af6a893a59.jpg",
+    "static/media/space-tile.jpg": "/EastsideConsultants/static/media/space-tile.eac3a1f95dc5a5baac7d.jpg",
+    "static/media/background2.jpg": "/EastsideConsultants/static/media/background2.ede5f796bbaa8925891f.jpg",
+    "static/media/Construction1.png": "/EastsideConsultants/static/media/Construction1.94a52edc544512d7361d.png",
+    "index.html": "/EastsideConsultants/index.html",
+    "main.cac18577.css.map": "/EastsideConsultants/static/css/main.cac18577.css.map",
+    "main.318e0030.js.map": "/EastsideConsultants/static/js/main.318e0030.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10e6d449.css",
-    "static/js/main.49e0c844.js"
+    "static/css/main.cac18577.css",
+    "static/js/main.318e0030.js"
   ]
 }
