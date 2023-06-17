@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import About from '../pages/About'
-import Projects from '../pages/Projects'
-import Resume from '../pages/Resume'
+import Home from '../pages/Home'
+import Services from '../pages/Services'
+
 import Footer from './Footer'
 import Contact from '../pages/Contact'
 import "../App.css"
 
 
 function Navbar() {
-    const [page, setPage] = useState("About")
+    const [page, setPage] = useState("Home")
     const handleClick = (click) => {
         const {target} = click
         setPage (target.textContent)
@@ -18,23 +18,22 @@ function Navbar() {
         <nav>
             <div className="navWrapper">
                 <ul className="navLinks">
-               {page === "About" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>About</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>About</a></li>)}
-                {page === "Projects" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>Projects</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>Projects</a></li>)}
+               {page === "Home" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>Home</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>Home</a></li>)}
+                {page === "Services" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>Services</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>Services</a></li>)}
                 {page === "Contact" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>Contact</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>Contact</a></li>)}
-                {page === "Resume" ? (<li className="nav-item active"><a className="nav-link" onClick={handleClick}>Resume</a></li>) : (<li className="nav-item"><a className="nav-link" onClick={handleClick}>Resume</a></li>)}
                 </ul>
             </div>
         </nav>
         {
             {
-                "About":<About/>,
-                "Projects":<Projects/>,
-                "Resume":<Resume/>,
+                "Home":<Home/>,
+                "Services":<Services/>,
+                
                 "Contact":<Contact/>
             }
             [page]
         }
-        <Footer/>
+       
     </div>
   )
 }

@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("./assets/images/space.jpg");
+  background-image: url("./assets/images/background2.jpg");
   background-size:100% 130%;
   background-repeat: no-repeat;
   background-color: black;
@@ -60,6 +60,19 @@ body {
   justify-content: center;
 
 }
+
+.servicesList {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  }
+
+.servicesList li {
+
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
 .projectPicture {
   border: 5px solid white;
   color: white;
@@ -148,13 +161,14 @@ body {
   flex-direction: row;
   gap: 2rem;
   list-style: none;
-  color: white;
-  text-shadow: 1px 3px 3px black;
+  color: black;
+  /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
   font-size: 1.4rem;
   font-family: "Inter", sans-serif;
 }
 .navLinks:hover {
   cursor: pointer; 
+  
  
 }
 
@@ -164,7 +178,8 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  color:white;
+  color:rgb(255, 255, 255);
+  text-shadow: 1px 1px 8px black;
   font-family: "Inter", sans-serif;
   justify-content: center;
   margin-left: 10%;
@@ -195,9 +210,9 @@ body {
   box-shadow: 0px 0px 40px;
   margin: 70px auto;
   margin-left: 100px;
-  width: 270px;
-  height: 270px;
-  border-radius: 300px;
+  width: 38vw;
+  height: 20vw;
+
 }
 
 
@@ -322,22 +337,6 @@ a.github {
 
   }
 
-  .aboutSection {
-    position: relative;
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    color:white;
-    font-family: "Inter", sans-serif;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-top: -5%;
-    align-items: center;
-   
-  }
 
   .selfImageContainer {
     display: grid;
