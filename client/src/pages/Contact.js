@@ -35,7 +35,7 @@ function sendEmail(event) {
   emailjs.sendForm("service_c8p8hvc", "template_qte1kzb", event.target, "ECMVldby_xx2D2VVz")
     .then(function (response) {
       // Email sent successfully
-      alert("Email sent!");
+      alert("Email sent! You can expect a response within two business days.");
       // Reset the form
       event.target.reset();
     }, function (error) {
@@ -57,7 +57,7 @@ function Contact() {
 
           <input type="tel" name="phone" placeholder='Phone Number' required />
 
-          <input type="text" name="County" placeholder='County' required />
+          <input type="text" name="county" placeholder='County' required />
 
           <input type="text" name="parcel" placeholder='Tax Parcel #' required />
 
@@ -65,7 +65,7 @@ function Contact() {
 
           <textarea name="eRequest" placeholder='Surveying Request'></textarea>
 
-          <button type="submit">Send</button>
+          <button type="submit"> Send</button>
         </form>
       </div>
     </div>
