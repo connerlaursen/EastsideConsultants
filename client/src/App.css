@@ -143,9 +143,11 @@ body {
 }
 
 .navWrapper {
+  background-color: white;
   display: flex;
   position: fixed;
   align-items: center;
+  justify-items: center;
   justify-content: center;
   height: 12vh;
   width: 100%;
@@ -157,6 +159,7 @@ body {
 }
 
 .navLinks {
+  
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -168,12 +171,22 @@ body {
 }
 .navLinks:hover {
   cursor: pointer; 
-  
- 
 }
 
 
+/* In your App.css or a separate CSS file */
+
+.logo-image {
+  width: 400px; /* Set the desired width */
+  height: auto; /* Keeps the aspect ratio and adjusts the height accordingly */
+  /* Add more styles if needed, such as margin or padding */
+}
+
+/* Other CSS styles for your navigation bar, navigation links, etc. */
+
+
 .aboutSection {
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

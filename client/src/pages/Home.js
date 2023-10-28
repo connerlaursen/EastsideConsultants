@@ -5,9 +5,9 @@ function Home() {
   return (
     <div className="aboutWrapper">
     <div className="selfImageContainer"><img className="selfImage" src={selfPic}/></div>
-    <p className="aboutSection">
+    <div className="aboutSection">
       <h2 className="aboutSection">Eastside Consultants, Inc., a consulting firm of land surveyors and civil engineers has been providing surveying services and general civil engineering services since its inception in 1977.</h2>
-    </p>
+    </div>
     
   </div>
   )
