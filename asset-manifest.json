@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/EastsideConsultants/static/css/main.b84ed31a.css",
-    "main.js": "/EastsideConsultants/static/js/main.0df6501f.js",
+    "main.css": "/EastsideConsultants/static/css/main.fbb56287.css",
+    "main.js": "/EastsideConsultants/static/js/main.167e37df.js",
     "static/js/787.c4e7f8f9.chunk.js": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/space.jpg": "/EastsideConsultants/static/media/space.04c09340b1af6a893a59.jpg",
-    "static/media/space-tile.jpg": "/EastsideConsultants/static/media/space-tile.eac3a1f95dc5a5baac7d.jpg",
+    "static/media/Alpental-b.jpg": "/EastsideConsultants/static/media/Alpental-b.8aa50850d2fa5146a6cd.jpg",
     "static/media/background2.jpg": "/EastsideConsultants/static/media/background2.ede5f796bbaa8925891f.jpg",
-    "static/media/Construction1.png": "/EastsideConsultants/static/media/Construction1.94a52edc544512d7361d.png",
     "static/media/Logo.jpg": "/EastsideConsultants/static/media/Logo.4cfcad7adee10e5d5a6b.jpg",
     "index.html": "/EastsideConsultants/index.html",
-    "main.b84ed31a.css.map": "/EastsideConsultants/static/css/main.b84ed31a.css.map",
-    "main.0df6501f.js.map": "/EastsideConsultants/static/js/main.0df6501f.js.map",
+    "main.fbb56287.css.map": "/EastsideConsultants/static/css/main.fbb56287.css.map",
+    "main.167e37df.js.map": "/EastsideConsultants/static/js/main.167e37df.js.map",
     "787.c4e7f8f9.chunk.js.map": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b84ed31a.css",
-    "static/js/main.0df6501f.js"
+    "static/css/main.fbb56287.css",
+    "static/js/main.167e37df.js"
   ]
 }
