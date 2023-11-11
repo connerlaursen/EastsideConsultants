@@ -45,12 +45,16 @@ body {
 
 
 
-.projectWrapper {
+ .projectWrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Align items to the start (top) vertically */
   height: 90vh;
+  padding-top: 95px;
 }
+
+
 
 .projectSection {
   display: flex;
@@ -94,7 +98,7 @@ body {
   background-size: 115%;
   transition: all 0.5s;
   font-size: 1rem;
-  background-image: url("./assets/images/space-tile.jpg");
+
   background-size: cover;
   border-radius: 50px;
 }
@@ -173,11 +177,39 @@ body {
   cursor: pointer; 
 }
 
+.personnelHeader {
+  text-align: center;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.personnelTitle {
+width:70%;
+ text-align: left;
+ margin-bottom: 10px;
+ margin-top: 20px;
+ border-bottom: 2px solid black;
+}
+.personnelDescription {
+  text-align: left;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+/* Add this to your existing CSS */
+
+/* Add this to your existing CSS */
+
+/* Add this to your existing CSS */
+
+
+
+
 
 /* In your App.css or a separate CSS file */
 
 .logo-image {
-  width: 400px; /* Set the desired width */
+  width: 390px; /* Set the desired width */
   height: auto; /* Keeps the aspect ratio and adjusts the height accordingly */
   /* Add more styles if needed, such as margin or padding */
 }
@@ -218,13 +250,14 @@ body {
 }
 
 
-.selfImage {
+.homeImage {
   display: block;
   box-shadow: 0px 0px 40px;
   margin: 70px auto;
   margin-left: 100px;
-  width: 38vw;
-  height: 20vw;
+  margin-top:100px;
+  width: 500px;
+  height: 600px;
 
 }
 
@@ -351,14 +384,14 @@ a.github {
   }
 
 
-  .selfImageContainer {
+  .homeImageContainer {
     display: grid;
     align-items: center;
     justify-content: center;
     bottom: -10px;
     
     }
-    .selfImage {
+    .homeImage {
       width: 180px;
       height: 180px;
       display: block;
@@ -411,7 +444,6 @@ a.github {
       background-size: 115%;
       transition: all 0.5s;
       font-size: 1rem;
-      background-image: url("./assets/images/space-tile.jpg");
       background-size: cover;
       border-radius: 50px;
     }
@@ -457,6 +489,7 @@ a.github {
   /*project page */
   .projectWrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -481,7 +514,6 @@ a.github {
     background-size: 115%;
     transition: all 0.5s;
     font-size: 1rem;
-    background-image: url("./assets/images/space-tile.jpg");
     background-size: cover;
     border-radius: 50px;
   }
@@ -522,7 +554,6 @@ a.github {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("./assets/images/space.jpg");
     background-size:140% 150%;
     background-repeat: no-repeat;
     background-color: black;
@@ -577,7 +608,7 @@ a.github {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("./assets/images/space.jpg");
+
     background-size:140% 150%;
     background-repeat: no-repeat;
     background-color: black;
