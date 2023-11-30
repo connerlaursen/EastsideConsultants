@@ -11,6 +11,10 @@ body {
 
 }
 
+.logo {
+  cursor: pointer;
+}
+
 
 
 
@@ -196,17 +200,24 @@ width:70%;
   margin-right: 220px;
 }
 
-/* Add this to your existing CSS */
-
-/* Add this to your existing CSS */
-
-/* Add this to your existing CSS */
-
-
-
-
-
-/* In your App.css or a separate CSS file */
+.testimonialsHeader {
+  text-align: center;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialsTitle {
+width:70%;
+ text-align: left;
+ margin-bottom: 10px;
+ margin-top: 20px;
+ border-bottom: 2px solid black;
+}
+.testimonialsDescription {
+  text-align: left;
+  margin-left: 220px;
+  margin-right: 220px;
+}
 
 .logo-image {
   width: 390px; /* Set the desired width */

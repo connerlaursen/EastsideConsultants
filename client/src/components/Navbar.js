@@ -16,28 +16,18 @@ function Navbar() {
     const { target } = click;
     setPage(target.textContent);
   };
+  const handleLogoClick = () => {
+    setPage('Home'); // Set the page to 'Home' when the logo is clicked
+  };
 
   return (
     <div>
       <nav>
-        <div className="navWrapper">
-        <div className="logo">
+      <div className="navWrapper">
+          <div className="logo" onClick={handleLogoClick}>
             <img src={CompanyLogo} alt="Company Logo" className="logo-image" />
           </div>
           <ul className="navLinks">
-            {page === 'Home' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Home
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Home
-                </a>
-              </li>
-            )}
             {page === 'Services' ? (
               <li className="nav-item active">
                 <a className="nav-link" onClick={handleClick}>
