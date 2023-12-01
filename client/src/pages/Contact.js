@@ -46,29 +46,74 @@ function sendEmail(event) {
 
 function Contact() {
   return (
+
     <div className="contactWrapper">
-      <div className="formcarry-container">
-        <form onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder='Name' required />
+    <h2 className="contactHeader">Contact Us</h2>
+    <h5 className="contactTitle"> <br></br> </h5>
+    <p className="contactDescription">Thank you considering 
+    Eastside Consultants, Inc. for your project. If you are looking for a 
+    quote, please request via the online form. Once received, the 
+    necessary research will be done and then we will call you to discuss your 
+    project, scope of work, and costs associated.  </p>
 
-          <input type="email" name="email" placeholder='Email Address' required />
 
-          <input type="text" name="address" placeholder='Property Address' required />
+<div className="contactInfo">
+<h4> Location: </h4>
+<p>1320 NW Mall Street, Suite B Issaquah, WA 98027 </p>
+<h4> Phone: </h4>
+<p>425.392.5351</p>
+<h4> Email: </h4>
+<p>info@eastsideconsultants.com</p>
 
-          <input type="tel" name="phone" placeholder='Phone Number' required />
 
-          <input type="text" name="county" placeholder='County' required />
 
-          <input type="text" name="parcel" placeholder='Tax Parcel #' required />
+</div>
+<div className="map">
 
-          <textarea name="sRequest" placeholder='Engineering Request'></textarea>
 
-          <textarea name="eRequest" placeholder='Surveying Request'></textarea>
+</div>
 
-          <button type="submit"> Send</button>
-        </form>
-      </div>
-    </div>
+ </div>
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+     
+   /* //   <div className="formcarry-container">
+    //     <form onSubmit={sendEmail}>
+    //       <input type="text" name="name" placeholder='Name' required />
+
+    //       <input type="email" name="email" placeholder='Email Address' required />
+
+    //       <input type="text" name="address" placeholder='Property Address' required />
+
+    //       <input type="tel" name="phone" placeholder='Phone Number' required />
+
+    //       <input type="text" name="county" placeholder='County' required />
+
+    //       <input type="text" name="parcel" placeholder='Tax Parcel #' required />
+
+    //       <textarea name="sRequest" placeholder='Engineering Request'></textarea>
+
+    //       <textarea name="eRequest" placeholder='Surveying Request'></textarea>
+
+    //       <button type="submit"> Send</button>
+    //     </form>
+    //   </div> */
   )
 }
 
