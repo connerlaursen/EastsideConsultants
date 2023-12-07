@@ -70,19 +70,31 @@ width:70%;
   margin-right: 220px;
 }
 
+.contactDetails {
+  display: flex;
+  justify-content:space-around;
+  width: 70%; 
+  margin: 30px;
+}
+
 .contactInfo {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 300px; /* Adjust the width as needed */
-  margin-left: 20px; /* Set the left margin */
-  /* Additional styles */
+  width: 300px;
+  margin: 20px; /* Space between info box and map */
 }
 
-
 .map{
+margin: 20px;
 flex-grow:1;
+}
+
+.bottomContactText {
+
+  margin:10vh;
+
 }
 
  /*project page */
