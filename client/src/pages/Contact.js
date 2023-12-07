@@ -83,6 +83,9 @@ described of our location as "we are strategically located 207
 feet north of the Gas Lamp Tavern!" 
 </h4>
 </div>
+<footer>
+        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+      </footer>
 
  </div>
 

@@ -40,6 +40,9 @@ function Services() {
 </ul>
 
           </div>
+          <footer>
+        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+      </footer>
       </div>
 
       

@@ -26,6 +26,10 @@ function Personnel() {
         technological advances in engineering and surveying methods with the real time demands of the firm's projects. Steve 
         also manages complex engineering and surveying projects, such as large subdivision design, from its inception to 
         construction.  </p>
+
+        <footer>
+        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+      </footer>
     </div>
   
 

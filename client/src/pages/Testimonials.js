@@ -20,6 +20,8 @@ with me) to Kristy (office guru/front person extraordinaire) and their wonderful
 in oft inhospitable terrain and inclement weather.</p>
 <p className="testimonialsDescription">
 I recommend Eastside Consulting wholeheartedly!” </p>
+
+
     </div>
 
       

@@ -1,16 +1,31 @@
-import React from 'react'
-import homePic from "../assets/images/Alpental-b.jpg"
+import React from 'react';
+import img1 from '../assets/images/img1.jpg'; // Path to your image file
+import img2 from '../assets/images/img2.jpg'; // Path to your image file
+import img3 from '../assets/images/img3.jpg'; // Path to your image file
+import img4 from '../assets/images/img4.jpg'; // Path to your image file
 
 function Home() {
   return (
-    <div className="aboutWrapper">
-    <div className="homeImageContainer"><img className="homeImage" src={homePic}/></div>
-    <div className="aboutSection">
-      <h2 className="aboutSection">Eastside Consultants, Inc., a consulting firm of land surveyors and civil engineers has been providing surveying services and general civil engineering services since its inception in 1977.</h2>
+    <div className="homeWrapper">
+      <div className="homeHeader">
+        <h1>Eastside Consultants Inc.</h1>
+      </div>
+      
+      <div className="homeMain">
+        <div className="imageGallery">
+          <img className='img1' src={img1} alt="Image 1" />
+          <img className='img2'src={img2} alt="Image 2" />
+          <img className='img3'src={img3} alt="Image 3" />
+          <img className='img4'src={img4} alt="Image 4" />
+        </div>
+        {/* Other content for the home page */}
+      </div>
+      
+      <footer>
+        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+      </footer>
     </div>
-    
-  </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
