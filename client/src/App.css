@@ -4,9 +4,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("./assets/images/background2.jpg");
-  background-size:100% 130%;
-  background-repeat: no-repeat;
+  background-image: url("./assets/images/background.jpg");
+  background-size:200vw 300vh;
+  background-repeat:repeat;
+  
   background-color: black;
 
 }
@@ -51,7 +52,7 @@ body {
   justify-content: center;
 }
 .contactTitle {
-width:70%;
+ width:70%;
  text-align: left;
  margin-bottom: 10px;
  margin-top: 20px;
@@ -91,23 +92,30 @@ flex-grow:1;
 }
 /* career page */
 
-.careerWrapper {
+.careersWrapper {
   display: flex;
   flex-direction: column;
-  align-items: left; 
-  justify-content: flex-start; /* Align items to the start (top) vertically */
+  align-items: center; 
+  justify-content: flex-start; 
   height: 90vh;
   padding-top: 95px;
 }
 
-.positions {
-  margin-top:12vh
-}
-
-.homeHeader {
-  padding: 20px;
+.careersHeader {
   text-align: center;
+  width:100%;
+  align-items: center;
+  justify-content: center;
 }
+.careersTitle {
+  justify-content: center;
+   width:70%;
+   text-align:left;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   border-bottom: 2px solid black;
+  }
+
 
 header h1 {
   margin: 0;
@@ -253,21 +261,6 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-.resumeWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
-
 .navWrapper {
   background-color: white;
   display: flex;
@@ -306,6 +299,8 @@ footer {
   margin-top: 20px;
 }
 
+/* personnel page */
+
 .personnelHeader {
   text-align: center;
   width:100%;
@@ -324,6 +319,16 @@ width:70%;
   margin-left: 220px;
   margin-right: 220px;
 }
+
+/* testimonials page */
+
+.testimonialsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-start; /* Align items to the start (top) vertically */
+  height: 90vh;
+  padding-top: 95px;}
 
 .testimonialsHeader {
   text-align: center;
@@ -344,46 +349,83 @@ width:70%;
   margin-right: 220px;
 }
 
+/* services page */
+
+.servicesWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  height: 90vh;
+  padding-top: 95px;
+}
+
+.servicesHeader {
+  text-align: center;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicesSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.servicesTitle {
+width:70%;
+ text-align: left;
+ margin-bottom: 10px;
+ margin-top: 20px;
+ border-bottom: 2px solid black;
+}
+
+
+.servicesList {
+  width: 60%;
+  font-size: 20px;
+}
+
+.servicesList li {
+  margin-bottom: 24px;
+}
+
+.servicesList li:before {
+  content: '•'; /* You can use any symbol here, like '●', '▸', etc. */
+  color: #377dff; /* Change the color to your preference */
+  font-size: 10px;
+  margin-right: 8px; /* Adjust the space between the bullet and text */
+  vertical-align: middle;
+}
+
+.servicesList li:before {
+  content: '•'; /* You can use any symbol here, like '●', '▸', etc. */
+  color: #377dff; /* Change the color to your preference */
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 1;
+}
+
+
+
+
+
+
 .logo-image {
-  width: 390px; /* Set the desired width */
-  height: auto; /* Keeps the aspect ratio and adjusts the height accordingly */
-  /* Add more styles if needed, such as margin or padding */
-}
-
-/* Other CSS styles for your navigation bar, navigation links, etc. */
-
-
-.aboutSection {
+  width: 390px; 
+  height: auto; 
   
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-align: center;
-  color:rgb(255, 255, 255);
-  text-shadow: 1px 1px 8px black;
-  font-family: "Inter", sans-serif;
-  justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
-
-  align-items: center;
- 
 }
-.resumeSection {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-align: center;
-  color:white;
-  justify-content: center;
-  margin-left: 10%;
-  margin-top: 18%;
-  margin-bottom: 15%;
-  margin-right: 10%;
-  min-height: 150%vh;
-  align-items: center;
 
-}
+
 
 /* home page */
 
@@ -397,24 +439,19 @@ width:70%;
     padding-top: 95px;
   }
 
-  /* Your existing .homeWrapper styles */
-.homeWrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  height: 90vh;
-  padding-top: 95px;
-}
+.homeHeader {
+    padding: 20px;
+    text-align: center;
+  }
 
 .homeMain {
-  flex-grow: 1; /* Allows main content to expand */
+  flex-grow: 1; 
   text-align: center;
   padding: 20px;
 }
 
 .img1{
-height:30vh;
+height:70vh;
 width:30vw;
 }
 .img2{
@@ -430,18 +467,17 @@ width:30vw;
 width:30vw;
 }
 
-section {
-  margin-bottom: 40px;
+/* form page*/
+
+.darkGreenButton {
+  background-color: #006400;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-
-
-
-
-
-
-/* form on contact me page*/
 
 .formcarry-container {
   box-sizing: border-box;

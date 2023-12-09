@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../assets/images/img1.jpg'; // Path to your image file
-import img2 from '../assets/images/img2.jpg'; // Path to your image file
-import img3 from '../assets/images/img3.jpg'; // Path to your image file
-import img4 from '../assets/images/img4.jpg'; // Path to your image file
+import img1 from '../assets/images/img1.jpg'; 
+// import img2 from '../assets/images/img2.jpg'; 
+// import img3 from '../assets/images/img3.jpg'; 
+// import img4 from '../assets/images/img4.jpg'; 
 
 function Home() {
   return (
@@ -13,10 +13,10 @@ function Home() {
       
       <div className="homeMain">
         <div className="imageGallery">
-          <img className='img1' src={img1} alt="Image 1" />
-          <img className='img2'src={img2} alt="Image 2" />
-          <img className='img3'src={img3} alt="Image 3" />
-          <img className='img4'src={img4} alt="Image 4" />
+          <img className='img1' src={img1} alt="pic1" loading="lazy" />
+          {/* <img className='img2' src={img2} alt="pic2" loading="lazy" />
+              <img className='img3' src={img3} alt="pic3" loading="lazy" />
+              <img className='img4' src={img4} alt="pic4" loading="lazy" /> */}
         </div>
         {/* Other content for the home page */}
       </div>
