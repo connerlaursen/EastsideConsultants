@@ -6,7 +6,7 @@ function Contact() {
   return (
     
     <div className="contactWrapper">
-    <h2 className="contactHeader">Contact Us</h2>
+    <h1 className="contactHeader">Contact Us</h1>
     <h5 className="contactTitle"> <br></br> </h5>
     <p className="contactDescription">Thank you considering 
     Eastside Consultants, Inc. for your project. If you are looking for a 

@@ -7,7 +7,7 @@ function Careers() {
 
    
        
-          <h2 className="careersHeader">Open Positions</h2>
+          <h1 className="careersHeader">Open Positions</h1>
           <h5 className="careersTitle"> <br></br> </h5>
           <div className="job">
             <h3>Land Surveyor</h3>

@@ -3,7 +3,7 @@ import React from 'react'
 function Testimonials() {
   return (
     <div className="testimonialsWrapper">
-    <h2 className="testimonialsHeader">Testimonials</h2>
+    <h1 className="testimonialsHeader">Testimonials</h1>
 
 
 

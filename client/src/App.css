@@ -351,7 +351,7 @@ width:70%;
 
 /* services page */
 
-.servicesWrapper{
+.servicesWrapper {
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -362,7 +362,7 @@ width:70%;
 
 .servicesHeader {
   text-align: center;
-  width:100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -373,49 +373,71 @@ width:70%;
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+
+.servicesTitle {
+  width: 70%;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 2px solid black;
 
 }
 
+.servicesListBackground {
 
-.servicesTitle {
-width:70%;
- text-align: left;
- margin-bottom: 10px;
- margin-top: 20px;
- border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust width as needed */
+  margin: 20px auto; /* Centers the list horizontally */
+}
+.servicesListTitle {
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  
+}
+
+.servicesListItem {
+
+  flex-basis: calc(50% - 40px); /* Two items per row with spacing */
+  margin: 20px;
+}
+
+.servicesDescription {
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.5; 
 }
 
 
 .servicesList {
   width: 60%;
-  font-size: 20px;
+  font-size: 14px;
+  list-style: none;
+  margin-left:100px;
 }
 
 .servicesList li {
   margin-bottom: 24px;
+  text-decoration: underline; /* Underline each list item */
+  cursor: pointer; /* Change cursor to pointer */
+  line-height: .2;
 }
 
 .servicesList li:before {
-  content: '•'; /* You can use any symbol here, like '●', '▸', etc. */
-  color: #377dff; /* Change the color to your preference */
+  content: ' ';
+  color: #000000;
   font-size: 10px;
-  margin-right: 8px; /* Adjust the space between the bullet and text */
+  margin-right: 8px;
   vertical-align: middle;
+
 }
-
-.servicesList li:before {
-  content: '•'; /* You can use any symbol here, like '●', '▸', etc. */
-  color: #377dff; /* Change the color to your preference */
-  font-size: 10px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  line-height: 1;
-}
-
-
-
 
 
 

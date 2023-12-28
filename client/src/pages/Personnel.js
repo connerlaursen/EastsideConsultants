@@ -3,7 +3,7 @@ import React from 'react';
 function Personnel() {
   return (
     <div className="projectWrapper">
-      <h2 className="personnelHeader">Key Personnel</h2>
+      <h1 className="personnelHeader">Key Personnel</h1>
       <h5 className="personnelTitle">Robert J. Bogdon, P.L.S., CFedS, Principal </h5>
       <p className="personnelDescription">Rob has a broad background of surveying experience, with a strong emphasis on boundary surveys in 
         both Washington and Oregon. He is one of the few surveyors in private industry to have completed the Bureau 
