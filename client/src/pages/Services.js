@@ -1,4 +1,5 @@
 import React from 'react';
+import FormModal from '../components/FormModal';
 
 function Services() {
   function scrollToService(id) {
@@ -73,9 +74,11 @@ function Services() {
 <li onClick={() => scrollToService('commercialSiteDevelopment')}>Commercial Site Development</li>
 
         </ul>
-   
-
+        
+<div><FormModal />
         <div className="servicesListBackground">
+            
+        
         <div className="servicesListItem">
         <h2 className="servicesListTitle" id="boundarySurveys">Boundary Surveys </h2>
       <p className="servicesDescription">A boundary survey is a process carried out to determine property lines and define true property corners
@@ -205,8 +208,9 @@ and may show the limitations imposed on the property by state or local regulatio
 
 
  </div>
+ </div>
 
-
+ <FormModal />
       </div>
       <footer>
         <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>

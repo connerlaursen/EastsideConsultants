@@ -150,7 +150,7 @@ section {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 20px;
-  background-color: #197a41;
+  background-color: darkgreen;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -158,7 +158,7 @@ section {
 }
 
 .job a:hover {
-  background-color: #136134;
+  background-color: rgb(0, 80, 0);
 }
 
 .job a {
@@ -325,28 +325,52 @@ width:70%;
 .testimonialsWrapper {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: flex-start; /* Align items to the start (top) vertically */
-  height: 90vh;
-  padding-top: 95px;}
-
-.testimonialsHeader {
-  text-align: center;
-  width:100%;
   align-items: center;
-  justify-content: center;
+  padding: 20px;
 }
+
+.testimonial {
+  display: flex;
+  background-color: #f5f5f5;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
 .testimonialsTitle {
-width:70%;
- text-align: left;
- margin-bottom: 10px;
- margin-top: 20px;
- border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
 }
+
 .testimonialsDescription {
-  text-align: left;
-  margin-left: 220px;
-  margin-right: 220px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px; /* Space between image and text */
+  margin-top: 10px;
+  border: 3px solid white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.shortTestimonialsContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%; /* Occupy full width */
+}
+
+.shortTestimonialsContainer .testimonial {
+  max-width: 300px; /* Adjust as needed */
 }
 
 /* services page */
@@ -383,6 +407,7 @@ width:70%;
   border-bottom: 2px solid black;
 
 }
+
 
 .servicesListBackground {
 
@@ -440,12 +465,145 @@ width:70%;
 }
 
 
-
+/* logo image in navbar */
 .logo-image {
   width: 390px; 
   height: auto; 
   
 }
+
+/* modal for form */
+
+.modalTitle {
+  display: flex;
+  text-justify: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.open-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  height: 25vh; /* Adjust the height as needed */
+}
+
+.open-modal-button {
+  /* Your button styles */
+  background-color: darkgreen;
+  width: 200px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  font-size: 18px; /* Adjust font size as needed */
+  color: white;
+  margin: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.open-modal-button:hover {
+  background-color: rgb(0, 80, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.close-modal-button {
+  /* Style for the close button inside the modal */
+  /* This can be positioned at the bottom if you prefer */
+  background-color: darkgreen;
+  color:white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+.close-modal-button:hover {
+  /* Style for the close button inside the modal */
+  /* This can be positioned at the bottom if you prefer */
+  background-color: rgb(0, 80, 0); /* Darker green on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+
+
+.custom-modal {
+  position: fixed; /* Change to fixed position */
+  top: 50%; /* Place it 50% from the top */
+  left: 50%; /* Place it 50% from the left */
+  transform: translate(-50%, -50%); /* Center it horizontally and vertically */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+  width: 70vw;
+  height: 85vh;
+}
+
+
+/* Styles for the modal overlay */
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* form page*/
+
+/* Styles for the form within the modal */
+.formcarry-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust width and spacing of form elements */
+.formcarry-container form input,
+.formcarry-container form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+/* Increase the height of the textareas if needed */
+.formcarry-container form textarea {
+  height: 60px;
+}
+
+.formcarry-container form button[type="submit"] {
+  background-color: darkgreen; /* Green background */
+  color: white;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Hover effect for the button */
+.formcarry-container form button[type="submit"]:hover {
+  background-color: rgb(0, 80, 0); /* Darker green on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+
+
 
 
 
@@ -488,52 +646,6 @@ width:30vw;
   height:30vh;
 width:30vw;
 }
-
-/* form page*/
-
-.darkGreenButton {
-  background-color: #006400;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
-.formcarry-container {
-  box-sizing: border-box;
-	font-family: "Inter", sans-serif;
-  width: 35%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-input,
-textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 14px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #234070;
-  border: none;
-  color: #fff;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #1d355d;
-}
-
 
 
 

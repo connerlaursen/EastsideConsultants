@@ -1,5 +1,5 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+import FormModal from '../components/FormModal';
 
 
 function Contact() {
@@ -13,6 +13,7 @@ function Contact() {
     quote, please request via the online form. Once received, the 
     necessary research will be done and then we will call you to discuss your 
     project, scope of work, and costs associated.  </p>
+    <FormModal />
 
 <div className="contactDetails">
 <div className="contactInfo">
