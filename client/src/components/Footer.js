@@ -1,26 +1,21 @@
-import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faGithub
-} from "@fortawesome/free-brands-svg-icons";
+import React, { useState } from 'react';
+
+
+import '../App.css';
 
 function Footer() {
+  const [page, setPage] = useState('Home'); // Initialize the page state for footer
+
+  const handleClick = (clickedPage) => {
+    setPage(clickedPage); // Update the page state when a footer link is clicked
+  };
+
   return (
-    <div className="social-container">
-    <a href="https://www.linkedin.com/in/connerlaursenk/" target="_blank"
-      className="linkedin social">
-      <FontAwesomeIcon icon={faLinkedin} size="2x" />
-    </a>
-    <a href="https://github.com/connerlaursen" target="_blank"
-        className="github social">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-      </a>
-      
-</div>
+    <footer>
+      <p>&copy; 2023 Your Company Name. All rights reserved.</p>
 
-
-  )
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

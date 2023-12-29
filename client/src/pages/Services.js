@@ -1,5 +1,6 @@
 import React from 'react';
 import FormModal from '../components/FormModal';
+import Footer from '../components/Footer';
 
 function Services() {
   function scrollToService(id) {
@@ -213,7 +214,8 @@ and may show the limitations imposed on the property by state or local regulatio
  <FormModal />
       </div>
       <footer>
-        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+        
+      <Footer />
       </footer>
     </div>
   );

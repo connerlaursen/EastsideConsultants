@@ -340,6 +340,14 @@ width:70%;
   margin-bottom: 20px;
 }
 
+.testimonialsHeader {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+}
+
 .testimonialsTitle {
   margin-bottom: 10px;
   font-size: 1.2rem;
@@ -517,6 +525,7 @@ width:70%;
   /* Style for the close button inside the modal */
   /* This can be positioned at the bottom if you prefer */
   background-color: darkgreen;
+  position: absolute;
   color:white;
   padding: 8px 16px;
   border: none;

@@ -1,5 +1,6 @@
 import React from 'react';
 import FormModal from '../components/FormModal'; // Import the FormModal component
+import Footer from '../components/Footer';
 
 function Projects() {
   return (
@@ -13,7 +14,8 @@ function Projects() {
         <FormModal />
       </div>
       <footer>
-        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+        
+      <Footer />
       </footer>
     </div>
   );

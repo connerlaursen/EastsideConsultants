@@ -2,6 +2,7 @@ import React from 'react'
 import img2 from '../assets/images/img2.jpg'; 
 import img3 from '../assets/images/img3.jpg'; 
 import img4 from '../assets/images/img4.jpg'; 
+import Footer from '../components/Footer';
 
 function Testimonials() {
   return (
@@ -67,8 +68,9 @@ appreciated their willingness to give honest advice even if it might cost them a
 </div>
 
 
-      <footer>
-        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+<footer>
+     
+<Footer />
       </footer>
     </div>
 

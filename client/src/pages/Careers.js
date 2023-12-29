@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 function Careers() {
   return (
@@ -22,8 +23,9 @@ function Careers() {
        
       
 
-      <footer>
-        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+        <footer>
+      
+        <Footer />
       </footer>
     </div>
   );

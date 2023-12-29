@@ -1,5 +1,6 @@
 import React from 'react';
 import FormModal from '../components/FormModal';
+import Footer from '../components/Footer';
 
 
 function Contact() {
@@ -43,7 +44,8 @@ feet north of the Gas Lamp Tavern!"
 </h4>
 </div>
 <footer>
-        <p>&copy; 2024 Eastside Consultants Inc. All rights reserved.</p>
+        
+<Footer />
       </footer>
 
  </div>
