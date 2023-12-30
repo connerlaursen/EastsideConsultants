@@ -68,10 +68,10 @@ appreciated their willingness to give honest advice even if it might cost them a
 </div>
 
 
-<footer>
+
      
 <Footer />
-      </footer>
+     
     </div>
 
       

@@ -1,19 +1,24 @@
-import React, { useState } from 'react';
-
-
+import React from 'react';
+import bbb from '../assets/images/bbb.png'; 
 import '../App.css';
 
+
 function Footer() {
-  const [page, setPage] = useState('Home'); // Initialize the page state for footer
-
-  const handleClick = (clickedPage) => {
-    setPage(clickedPage); // Update the page state when a footer link is clicked
-  };
-
   return (
     <footer>
-      <p>&copy; 2023 Your Company Name. All rights reserved.</p>
-
+      <div className="footer-container">
+        <div className="footer-info">
+          <h3>Eastside Consultants LLC</h3>
+          <p>1320 NW Mall Street, Suite B Issaquah, WA 98027</p>
+          <a href="mailto:info@eastsideconsultants.com">info@eastsideconsultants.com</a>
+          <p>425.392.5351</p>
+        </div>
+        <div className="bbb-section">
+      <img src={bbb} alt="BBB" />
+      <p>BBB accredited since 2007</p>
+    </div>
+      </div>
+      <p className="copyright">&copy; 2024 Eastside Consultants LLC. All rights reserved.</p>
     </footer>
   );
 }
