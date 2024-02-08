@@ -6,7 +6,7 @@ function Projects() {
     <div className="projectWrapper">
       <div className="projectSection">
         <ul className="servicesList">
-          <li>Projects page content TBD</li>
+          <li>Property Links content TBD</li>
         </ul>
         
       

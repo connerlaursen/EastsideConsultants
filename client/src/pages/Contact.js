@@ -1,5 +1,5 @@
 import React from 'react';
-import FormModal from '../components/FormModal';
+
 import Footer from '../components/Footer';
 
 
@@ -9,12 +9,7 @@ function Contact() {
     <div className="contactWrapper">
     <h1 className="contactHeader">Contact Us</h1>
     <h5 className="contactTitle"> <br></br> </h5>
-    <p className="contactDescription">Thank you considering 
-    Eastside Consultants, Inc. for your project. If you are looking for a 
-    quote, please request via the online form. Once received, the 
-    necessary research will be done and then we will call you to discuss your 
-    project, scope of work, and costs associated.  </p>
-    <FormModal />
+
 
 <div className="contactDetails">
 <div className="contactInfo">
@@ -37,12 +32,7 @@ function Contact() {
         />
       </div>
       </div>
-<div>
-<h4 className="bottomContactText">Rob Bogdon 
-described of our location as "we are strategically located 207 
-feet north of the Gas Lamp Tavern!" 
-</h4>
-</div>
+
 <footer>
         
 <Footer />

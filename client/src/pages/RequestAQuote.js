@@ -1,4 +1,5 @@
 import React from 'react';
+import FormModal from '../components/FormModal'; // Import the FormModal component
 import Footer from '../components/Footer';
 
 function Projects() {
@@ -6,7 +7,7 @@ function Projects() {
     <div className="projectWrapper">
       <div className="projectSection">
         <ul className="servicesList">
-          <li>Projects page content TBD</li>
+          <li>Request a quote content TBD</li>
         </ul>
         
       

@@ -12,7 +12,7 @@ function Testimonials() {
 
 
     <div className ='testimonial'>
-    <h5 className="testimonialsTitle"> Kristin T.*put this at the end of the review*** </h5>
+    <h5 className="testimonialsTitle"> Kristin T. </h5>
     <p className="testimonialsDescription">“Excellent civil engineering firm I&#39;ve worked with many times throughout the past seven years, specifically on
 residential development needs of contractors/builders and individuals I do arboricultural and project
 management/consulting work for. As a daughter of a FHWA civil engineer, I understand the absolute

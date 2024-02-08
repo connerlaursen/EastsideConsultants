@@ -39,7 +39,7 @@ function Services() {
   return (
     <div className="servicesWrapper">
       <div className="servicesSection">
-        <h1 className="servicesHeader">Survey Services</h1>
+        <h1 className="servicesHeader">Land Survey Services</h1>
         <h5 className="servicesTitle"> <br></br> </h5>
         <ul className="servicesList">
 <li onClick={() => scrollToService('boundarySurveys')}>Boundary Surveys</li>
@@ -60,7 +60,7 @@ function Services() {
         </ul>
       </div>
       <div className="servicesSection">
-        <h1 className="servicesHeader">Civil Services</h1>
+        <h1 className="servicesHeader">Civil Engineering Services</h1>
         <h5 className="servicesTitle"> <br></br> </h5>
         <ul className="servicesList">
 <li onClick={() => scrollToService('drainageAnalysisReports')}>Drainage Analysis & Reports</li>
@@ -76,7 +76,7 @@ function Services() {
 
         </ul>
         
-<div><FormModal />
+<div>
         <div className="servicesListBackground">
             
         
@@ -211,7 +211,7 @@ and may show the limitations imposed on the property by state or local regulatio
  </div>
  </div>
 
- <FormModal />
+ 
       </div>
       <footer>
         

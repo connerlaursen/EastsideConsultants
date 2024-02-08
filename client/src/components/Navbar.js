@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Home from '../pages/Home';
 import Services from '../pages/Services';
 import Projects from '../pages/Projects';
-import Personnel from '../pages/Personnel';
+import Leadership from '../pages/Leadership';
 import Careers from '../pages/Careers';
 import Contact from '../pages/Contact';
 import Testimonials from '../pages/Testimonials';
@@ -54,16 +54,16 @@ function Navbar() {
                 </a>
               </li>
             )}
-            {page === 'Personnel' ? (
+            {page === 'Leadership' ? (
               <li className="nav-item active">
                 <a className="nav-link" onClick={handleClick}>
-                  Personnel
+                  Leadership
                 </a>
               </li>
             ) : (
               <li className="nav-item">
                 <a className="nav-link" onClick={handleClick}>
-                  Personnel
+                  Leadership
                 </a>
               </li>
             )}
@@ -114,7 +114,7 @@ function Navbar() {
           Home: <Home />,
           Services: <Services />,
           Projects: <Projects />,
-          Personnel: <Personnel />,
+          Leadership: <Leadership />,
           Careers: <Careers />,
           Contact: <Contact />,
           Testimonials: <Testimonials />,

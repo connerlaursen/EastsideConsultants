@@ -251,25 +251,25 @@ section {
 
 
 
-/* personnel page */
+/* leadership page */
 
 /* General styles */
-.personnelWrapper {
+.leadershipWrapper {
   height: 90vh;
   padding-top: 95px;
 
 }
 
 /* Header styles */
-.personnelHeader {
+.leadershipHeader {
   text-align: center;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-/* Personnel Title styles */
-.personnelTitle {
+/* leadership Title styles */
+.leadershipTitle {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -277,8 +277,8 @@ section {
   padding-bottom: 5px;
 }
 
-/* Personnel Description styles */
-.personnelDescription {
+/* leadership Description styles */
+.leadershipDescription {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -307,10 +307,9 @@ section {
 
 .testimonialsHeader {
   text-align: center;
-  width: 100%;
+  width:100%;
   align-items: center;
   justify-content: center;
-  margin-top: 115px;
 }
 
 .testimonialsTitle {
@@ -613,6 +612,14 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
+.company-description-text {
+  font-size: 50;
+}
+.company-description {
+  font-size: 50;
+}
+
+
 
 
 /* Footer Styles */
@@ -705,4 +712,121 @@ footer {
 
 /* responsiveness add code below*/
 
+/* Global Styles */
 
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
+
+  .navWrapper {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .navLinks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    padding:0;
+  }
+
+  .logo-image {
+    width: 100%;
+  }
+
+  .nav-item {
+    margin-bottom: 1px; /* Adjust spacing between navigation items */
+  
+  }
+
+  .nav-item:hover {
+    transform: translateY(0);
+  }
+
+  .aboutWrapper,
+  .contactWrapper,
+  .careersWrapper,
+  .projectWrapper,
+  .leadershipWrapper,
+  .testimonialsWrapper,
+  .servicesWrapper,
+  .homeWrapper {
+    padding-top: 60px; /* Adjust spacing for content */
+  }
+
+  .footer-container img {
+    max-width: 80%; /* Adjust the logo size in the footer */
+  }
+
+  .servicesListItem,
+  .job,
+  .contactInfo,
+  .testimonial img,
+  .img1 {
+    max-width: 100%;
+  }
+
+  .contactDescription,
+  .contactTitle,
+  .map,
+  .bottomContactText,
+  .careersTitle,
+  .job,
+  .careerSection,
+  .projectSection,
+  .leadershipTitle,
+  .leadershipDescription,
+  .servicesTitle,
+  .servicesListItem,
+  .servicesDescription,
+  .servicesListTitle,
+  .testimonial,
+  .testimonialsTitle,
+  .testimonialsDescription,
+  .servicesListBackground,
+  .formcarry-container form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Tablets and small screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .servicesList,
+  .servicesList li {
+    margin-left: 0;
+  }
+}
+
+/* Larger screens */
+@media only screen and (min-width: 1025px) {
+  .navLinks {
+    justify-content: flex-end;
+  }
+
+  .aboutWrapper,
+  .contactWrapper,
+  .careersWrapper,
+  .projectWrapper,
+  .leadershipWrapper,
+  .testimonialsWrapper,
+  .servicesWrapper,
+  .homeWrapper {
+    padding-top: 95px;
+  }
+
+  .servicesList,
+  .servicesList li {
+    margin-left: 30px;
+  }
+}
