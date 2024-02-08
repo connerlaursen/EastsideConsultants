@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EastsideConsultants/static/css/main.040f94b8.css",
-    "main.js": "/EastsideConsultants/static/js/main.74b01dfb.js",
+    "main.css": "/EastsideConsultants/static/css/main.c61c8565.css",
+    "main.js": "/EastsideConsultants/static/js/main.2eb83b55.js",
     "static/js/787.c4e7f8f9.chunk.js": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js",
     "static/media/img4.jpg": "/EastsideConsultants/static/media/img4.5a1205cb827be383df88.jpg",
     "static/media/img2.jpg": "/EastsideConsultants/static/media/img2.6400daf620149ade00a6.jpg",
@@ -11,12 +11,12 @@
     "static/media/bbb.png": "/EastsideConsultants/static/media/bbb.c854c04387509128bfdd.png",
     "static/media/Logo.jpg": "/EastsideConsultants/static/media/Logo.4cfcad7adee10e5d5a6b.jpg",
     "index.html": "/EastsideConsultants/index.html",
-    "main.040f94b8.css.map": "/EastsideConsultants/static/css/main.040f94b8.css.map",
-    "main.74b01dfb.js.map": "/EastsideConsultants/static/js/main.74b01dfb.js.map",
+    "main.c61c8565.css.map": "/EastsideConsultants/static/css/main.c61c8565.css.map",
+    "main.2eb83b55.js.map": "/EastsideConsultants/static/js/main.2eb83b55.js.map",
     "787.c4e7f8f9.chunk.js.map": "/EastsideConsultants/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.040f94b8.css",
-    "static/js/main.74b01dfb.js"
+    "static/css/main.c61c8565.css",
+    "static/js/main.2eb83b55.js"
   ]
 }
