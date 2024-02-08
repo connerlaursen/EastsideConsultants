@@ -12,12 +12,6 @@ body {
 
 }
 
-.logo {
-  cursor: pointer;
-}
-
-
-
 
 /*pages*/
 
@@ -207,76 +201,26 @@ section {
 
 }
 
-.servicesList {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  }
 
-.servicesList li {
 
-  margin-left: 30px;
-  margin-top: 5px;
-}
 
-.projectPicture {
-  border: 5px solid white;
-  color: white;
-  min-height: 150px;
-  max-height: 150px;
-  min-width: 150px;
-  max-width: 150px;
-  flex-basis: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  text-justify: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 20px 20px 20px 20px;
-  margin: 10px;
-  text-decoration: none;
-  background-size: 115%;
-  transition: all 0.5s;
-  font-size: 1rem;
+/* nav  */
 
-  background-size: cover;
-  border-radius: 50px;
-}
-.projectLabel {
-
-  text-align: center;
-  text-justify: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-}
-.projectName {
-
-  text-align: center;
-  text-justify: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-}
-
-.projectPicture:hover {
-
+.logo {
   cursor: pointer;
-  transform: translateY(-2px);
-  transition: transform 250ms; 
-
-
 }
 
+.logo-image {
+  width: 390px; 
+  height: auto; 
+  
+}
 
 .navWrapper {
   background-color: white;
   display: flex;
   position: fixed;
+  top:0;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -296,7 +240,7 @@ section {
   gap: 2rem;
   list-style: none;
   color: black;
-  /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+ 
   font-size: 1.4rem;
   font-family: "Inter", sans-serif;
 }
@@ -309,24 +253,37 @@ section {
 
 /* personnel page */
 
+/* General styles */
+.personnelWrapper {
+  height: 90vh;
+  padding-top: 95px;
+
+}
+
+/* Header styles */
 .personnelHeader {
   text-align: center;
-  width:100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
+
+/* Personnel Title styles */
 .personnelTitle {
-width:70%;
- text-align: left;
- margin-bottom: 10px;
- margin-top: 20px;
- border-bottom: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
 }
+
+/* Personnel Description styles */
 .personnelDescription {
-  text-align: left;
-  margin-left: 220px;
-  margin-right: 220px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
+
 
 /* testimonials page */
 
@@ -458,18 +415,24 @@ width:70%;
 
 
 .servicesList {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
   width: 60%;
   font-size: 14px;
   list-style: none;
   margin-left:100px;
-}
+  }
 
 .servicesList li {
   margin-bottom: 24px;
   text-decoration: underline; /* Underline each list item */
   cursor: pointer; /* Change cursor to pointer */
   line-height: .2;
+  margin-left: 30px;
+  margin-top: 5px;
 }
+
 
 .servicesList li:before {
   content: ' ';
@@ -481,12 +444,6 @@ width:70%;
 }
 
 
-/* logo image in navbar */
-.logo-image {
-  width: 390px; 
-  height: auto; 
-  
-}
 
 /* modal for form */
 
@@ -648,21 +605,13 @@ width:70%;
 }
 
 .img1{
-height:70vh;
-width:30vw;
+
+max-width: 25%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.img2{
-  height:30vh;
-width:30vw;
-}
-.img3{
-  height:30vh;
-width:30vw;
-}
-.img4{
-  height:30vh;
-width:30vw;
-}
+
 
 
 
@@ -754,317 +703,6 @@ footer {
 
 
 
-/* responsiveness*/
+/* responsiveness add code below*/
 
 
-@media screen and (max-width: 1024px) {
-
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    list-style: none;
-    margin-right: 40px;
-    color: white;
-    text-shadow: 1px 3px 3px black;
-    font-size: 1.4rem;
-    font-family: "Inter", sans-serif;
-  }
-
-  .navWrapper {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    height: 12vh;
-    width: 100%;
-  }
-
-  .aboutWrapper {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10%;
-    height: 85vh;
-
-  }
-
-
-  .homeImageContainer {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    bottom: -10px;
-    
-    }
-    .homeImage {
-      width: 180px;
-      height: 180px;
-      display: block;
-      margin-right: 95px;
-      justify-items: center;
-      align-content: center;
-      justify-self: center;
-      align-items: center;
-      justify-content: center;
-    }
-
-
-     /*project page */
-
-    .projectWrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 90vh;
-    }
-
-    .projectSection{
-
-    display: flex ;
-    text-align: center;
-    color:white;
-    font-family: "Inter", sans-serif;
-    max-width: 100vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-top: -5%;
-    }
-    .projectPicture {
-      border: 5px solid white;
-      color: white;
-      min-height: 50px;
-      max-height: 250px;
-      flex-basis: 80%;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      text-justify: center;
-      flex-wrap: wrap;
-      padding: 20px 20px 20px 20px;
-      margin: 10px;
-      text-decoration: none;
-      background-size: 115%;
-      transition: all 0.5s;
-      font-size: 1rem;
-      background-size: cover;
-      border-radius: 50px;
-    }
-
-  
-
-}
-
-
-
-@media screen and (max-width: 768px)  {
-
-
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style: none;
-    color: white;
-    font-size: 1rem;
-  }
-
-  .flex-item {
-    flex-basis: 100%;
-    min-height: 120px;
-    max-height: 200px;
-  }
-
-
-  .hero {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contact address {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-
-
-
-  /*project page */
-  .projectWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-  }
-  .projectPicture {
-    border: 5px solid white;
-    color: white;
-    min-height: 120px;
-    max-height: 120px;
-    min-width: 120px;
-    max-width: 120px;
-    flex-basis: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-justify: center;
-    flex-wrap: wrap;
-    padding: 20px 20px 20px 20px;
-    margin: 10px;
-    text-decoration: none;
-    background-size: 115%;
-    transition: all 0.5s;
-    font-size: 1rem;
-    background-size: cover;
-    border-radius: 50px;
-  }
-  
-}
-
-@media screen and (max-width: 500px) and (min-width:376px) {
-
-  .projectPicture {
-    min-height: 80px;
-    max-height: 80px;
-    min-width: 80px;
-    max-width: 80px;
-  }
-
-  .projectLabel {
-
-    font-size:0.8rem;
-   }
-   .projectName {
-   
-     font-size:0.8rem;
-   }
-}
-
-
-
-
-@media screen and (max-width: 375px) and (min-width:351px) {
-
-  .aboutWrapper {
-    
-    height: 120vh;
-
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-size:140% 150%;
-    background-repeat: no-repeat;
-    background-color: black;
-  
-  }
-
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style: none;
-    color: white;
-    font-size: 1rem;
-  }
-
-   /*project page */
-
-  .projectWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-  }
-  .projectPicture {
-    min-height: 70px;
-    max-height: 70px;
-    min-width: 70px;
-    max-width: 70px;
-  }
-
-  .projectLabel {
-
-   font-size:0.8rem;
-  }
-  .projectName {
-  
-    font-size:0.8rem;
-  }
-
-  
-}
-
-@media screen and (max-width: 350px) and (min-width:0px) {
-
-  .aboutWrapper {
-    
-    height: 120vh;
-
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    background-size:140% 150%;
-    background-repeat: no-repeat;
-    background-color: black;
-  
-  }
-
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style: none;
-    color: white;
-    font-size: .6rem;
-  }
-
-   /*project page */
-
-  .projectWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-  }
-  .projectSection {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: -10px;
-    padding-top: 15px;
-  }
-  .projectPicture {
-    min-height: 40px;
-    max-height: 40px;
-    min-width: 40px;
-    max-width: 40px;
-  }
-
-  .projectLabel {
-
-   font-size:0.5rem;
-  }
-  .projectName {
-  
-    font-size:0.5rem;
-  }
-
-  
-}
-  

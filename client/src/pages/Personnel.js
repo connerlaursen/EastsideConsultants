@@ -3,8 +3,8 @@ import Footer from '../components/Footer';
 
 function Personnel() {
   return (
-    <div className="projectWrapper">
-      <h1 className="personnelHeader">Key Personnel</h1>
+    <div className="personnelWrapper">
+      <h1 className="personnelHeader">Leadership</h1>
       <h5 className="personnelTitle">Robert J. Bogdon, P.L.S., CFedS, Principal </h5>
       <p className="personnelDescription">Rob has a broad background of surveying experience, with a strong emphasis on boundary surveys in 
         both Washington and Oregon. He is one of the few surveyors in private industry to have completed the Bureau 
@@ -27,12 +27,13 @@ function Personnel() {
         technological advances in engineering and surveying methods with the real time demands of the firm's projects. Steve 
         also manages complex engineering and surveying projects, such as large subdivision design, from its inception to 
         construction.  </p>
-
-        <footer>
+       <div><Footer /></div>
+        </div>
        
-        <Footer />
-      </footer>
-    </div>
+     
+     
+  
+    
   
 
     
