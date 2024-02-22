@@ -5,8 +5,11 @@ import Projects from '../pages/Projects';
 import Leadership from '../pages/Leadership';
 import Careers from '../pages/Careers';
 import Contact from '../pages/Contact';
+import PropertyLinks from '../pages/PropertyLinks';
+import RequestAQuote from '../pages/RequestAQuote';
 import Testimonials from '../pages/Testimonials';
-import CompanyLogo from '../assets/images/Logo.jpg'; // Import your company logo image here
+import CompanyLogo from '../assets/images/Logo.jpg'; 
+import FormModal from '../components/FormModal'; // Import the FormModal component
 import '../App.css';
 
 function Navbar() {
@@ -106,7 +109,35 @@ function Navbar() {
                 </a>
               </li>
             )}
+            {page === 'Property Links' ? (
+              <li className="nav-item active">
+                <a className="nav-link" onClick={handleClick}>
+                  Property Links
+                </a>
+              </li>
+            ) : (
+              <li className="nav-item">
+                <a className="nav-link" onClick={handleClick}>
+                  Property Links
+                </a>
+              </li>
+            )}
+            {page === 'Request a Quote' ? (
+              <li className="nav-item active">
+                <a className="nav-link" onClick={handleClick}>
+                  Request a Quote
+                </a>
+              </li>
+            ) : (
+              <li className="nav-item">
+                <a className="nav-link" onClick={handleClick}>
+                  Request a Quote
+                </a>
+              </li>
+            )}
+           
           </ul>
+          
         </div>
       </nav>
       {
@@ -118,6 +149,8 @@ function Navbar() {
           Careers: <Careers />,
           Contact: <Contact />,
           Testimonials: <Testimonials />,
+          'Property Links': <PropertyLinks />,
+          'Request a Quote': <RequestAQuote />,
         }[page]
       }
     </div>

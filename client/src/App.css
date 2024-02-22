@@ -232,16 +232,24 @@ section {
   transition: transform 250ms; 
 
 }
+.nav-item.active a {
+  transform: scale(1.1); /* Scale the active item */
+  transition: transform 0.3s ease; /* Smooth scale transition */
+  box-shadow: 0 0 10px rgba(142, 142, 142, 0.9);
+  background-color: rgba(142, 142, 142, 0.45); /* Add a semi-transparent green background */
+  border-radius: 4px;
+}
+
 
 .navLinks {
   
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   list-style: none;
   color: black;
  
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: "Inter", sans-serif;
 }
 .navLinks:hover {
@@ -258,6 +266,7 @@ section {
   height: 90vh;
   padding-top: 95px;
 
+
 }
 
 /* Header styles */
@@ -266,6 +275,8 @@ section {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* leadership Title styles */
@@ -275,6 +286,8 @@ section {
   margin-bottom: 5px;
   border-bottom: 2px solid #000;
   padding-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* leadership Description styles */
@@ -282,6 +295,8 @@ section {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -614,6 +629,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 .company-description-text {
   font-size: 50;
+  text-align: center;
 }
 .company-description {
   font-size: 50;
@@ -748,6 +764,10 @@ footer {
   .nav-item:hover {
     transform: translateY(0);
   }
+  .nav-item.active a {
+  color: darkgreen; /* Change color for the active item */
+  /* Add any additional styling for the active item */
+}
 
   .aboutWrapper,
   .contactWrapper,

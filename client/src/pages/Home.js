@@ -9,7 +9,9 @@ function Home() {
         <h1>Eastside Consultants, Inc.</h1>
       </div>
       <div className="company-description">
-          <p className="company-description-text">Eastside Consultants, Inc., a firm of land surveyors and civil engineers, has been providing surveying service and general civil engineering services since its inception in 1977.</p>
+          <h4 className="company-description-text">Eastside Consultants, Inc., a firm of land surveyors and civil engineers, </h4>
+          <h4 className="company-description-text">has been providing surveying service and general civil engineering services since its inception in 1977.</h4>
+        
         </div>
       
       <div className="homeMain">
