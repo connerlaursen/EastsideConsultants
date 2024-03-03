@@ -23,13 +23,15 @@ function Contact() {
 </div>
 
 <div>
-       
+<a href="https://maps.google.com?q=1320+NW+Mall+Street,+Suite+B+Issaquah,+WA+98027" target="_blank" rel="noopener noreferrer">
+            
         <img className="map"
           src="https://maps.googleapis.com/maps/api/staticmap?center=1320+NW+Mall+Street,+Suite+B+Issaquah,+WA+98027&zoom=15&size=600x300&maptype=roadmap
           &markers=color:red%7Clabel:C%7C1320+NW+Mall+Street,+Suite+B+Issaquah,+WA+98027
           &key=AIzaSyCpWdbJyKutfMypMvjDwS5iHLNFHgL7S-M"
           alt="Google Map"
         />
+        </a>
       </div>
       </div>
 

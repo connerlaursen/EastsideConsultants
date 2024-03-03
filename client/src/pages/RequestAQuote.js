@@ -59,39 +59,77 @@ import Footer from '../components/Footer';
 
 function Form({ closeModal }) {
   return (
-        <div className="formWrapper">
+        <div >
           <div className ="formSection">
           <ul className="servicesList">
 </ul>
 
 <div className="formcarry-container">
-  <h5>Hello,
+  <h5 className="quoteParagraph">Hello,
+  </h5>
+  <h5 className="quoteParagraph">
 First, we would like to thank you for reaching out to Eastside Consultants and the opportunity in providing an
 estimate for your project. To receive a quote, please complete this online form. Once received, I will complete
 research on the property and forwarded to the Principal Surveyor or Civil Engineer for review. They will then
-call you to discuss the scope of work, time frame and costs associated.
-We look forward to hearing from you!
-Kristy Laursen
+call you to discuss the scope of work, time frame and costs associated. </h5>
+<h5 className="quoteParagraph">
+We look forward to hearing from you! </h5>
+<h5 className="quoteParagraph">
+Kristy Laursen </h5>
+<h5 className="quoteParagraph">
 Office Manager</h5>
-  <h3 className='modalTitle'>Please complete the form</h3>
+ 
   <form onSubmit={(event) => sendEmail(event, closeModal)}>
-          <input type="text" name="name" placeholder='Name' required />
+  <label>Type of Civil Work:</label>
+            <select className="formBoxSmall" name="typeOfCivilWork" required>
+              <option value="">Select...</option>
+              <option value="Drainage/Grading/Storm">Drainage/Grading/Storm</option>
+              <option value="UtilityDesign">Utility Design</option>
+              <option value="RoadDesign">Road Design</option>
+              <option value="SubdivisionDesign">Subdivision Design</option>
+              <option value="CommercialSiteDevelopment">Commercial Site Development</option>
+              <option value="OtherCivilWork">Other</option>
+            </select>
 
-          <input type="email" name="email" placeholder='Email Address' required />
+            <label>Type of Survey:</label>
+            <select className="formBoxSmall" name="typeOfSurvey" required>
+              <option value="">Select...</option>
+              <option value="BoundarySurvey">Boundary Survey</option>
+              <option value="BoundaryTopographicSurvey">Boundary & Topographic Survey</option>
+              <option value="BoundaryLineAdjustment">Boundary Line Adjustment</option>
+              <option value="OtherSurvey">Other</option>
+            </select>
 
-          <input type="text" name="address" placeholder='Property Address' required />
+            <label>Property:</label>
+            <select className="formBoxSmall" name="propertyType">
+              <option value="">Select...</option>
+              <option value="SingleFamilyResidence">Single Family Residence</option>
+              <option value="Multifamily">Multifamily</option>
+              <option value="ShortPlat">Short Plat</option>
+              <option value="Plat">Plat</option>
+              <option value="Commercial">Commercial</option>
+              <option value="OtherProperty">Other</option>
+            </select>
+          <input className="formBoxSmall" type="text" name="firstname" placeholder='First Name' required />
 
-          <input type="tel" name="phone" placeholder='Phone Number' required />
+          <input className="formBoxSmall" type="text" name="lastname" placeholder='Last Name' required />
 
-          <input type="text" name="county" placeholder='County' required />
+          <input className="formBoxSmall" type="tel" name="phone" placeholder='Phone Number' required />
 
-          <input type="text" name="parcel" placeholder='Tax Parcel #' required />
+          <input className="formBoxSmall" type="email" name="email" placeholder='Email Address' required />
 
-          <textarea name="sRequest" placeholder='Engineering Request'></textarea>
+          <input className="formBoxSmall" type="text" name="address" placeholder='Site Address' required />
 
-          <textarea name="eRequest" placeholder='Surveying Request'></textarea>
+          <input className="formBoxSmall" type="text" name="parcel" placeholder='Tax Parcel #' />
 
-          <button type="submit"> Send</button>
+          <input className="formBoxSmall" type="text" name="county" placeholder='County'/>
+
+          <input className="formBoxSmall" type="text" name="billingaddress" placeholder='Billing Address' required />
+
+          <textarea className="formBoxLarge" name="request" placeholder='Request'></textarea>
+
+
+          <button className="formButton" type="submit"> Send</button>
           
         </form>
       </div>
@@ -102,6 +140,7 @@ Office Manager</h5>
       <Footer />
       </footer>
       </div>
+      
 
       
   )
