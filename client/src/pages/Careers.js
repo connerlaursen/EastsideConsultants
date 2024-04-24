@@ -13,7 +13,7 @@ function Careers() {
           <div className="job">
             <h3>We’re always looking for great folks to join our amazing team!</h3>
             <p>Send your cover letter and resume to us</p>
-            <a href="mailto:kristy@eastsideconsultants.com">Email us</a>
+            <a href="mailto:info@eastsideconsultants.com">Email us</a>
         
           
         </div>

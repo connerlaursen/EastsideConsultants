@@ -716,9 +716,16 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.formBoxSmall {
+  width: 95%; /* Adjusted width */
+  padding: 10px; /* Keep padding as needed */
+  margin-bottom: 15px; /* Keep margin as needed */
+  border: 1px solid #ccc; /* Keep border as needed */
+  border-radius: 4px; /* Keep border radius as needed */
+}
 
 .formBoxLarge {
-  height: 150px;
+  height: 150px; 
 }
 
 .formButton {
@@ -889,7 +896,11 @@ footer {
 
 /* responsiveness add code below*/
 
-@media screen and (max-width: 1200px) and (min-width: 901px) {
+@media screen and (max-width: 1270px) and (min-width: 951px) {
+
+  /* home page */
+
+ 
 
   .logo-image {
     width: 300px; /* Adjusted width for smaller screens */
@@ -921,7 +932,18 @@ footer {
 
 
 /* Global Styles */
-@media (max-width: 900px) {
+@media (max-width: 950px) {
+
+  /* home page */
+  .homeMain img {
+    min-width: 50vw;
+  }
+
+  .company-description-text{
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
 
 /* nav bar */
@@ -1171,10 +1193,21 @@ footer {
     margin-top: 40px;
     margin-bottom: 10px;
     width: 90%;
+    padding:0;
   }
+ 
   .quoteParagraph {
+    margin:20px;
     margin-top: 10px;
+    
   }
+  .formBoxSmall{
+    padding-left: 20px;
+    padding-right: 20px;
+   
+  }
+  
+  
 
   /* footer */
 
@@ -1186,8 +1219,11 @@ footer {
 
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
   .menu-toggle {
     display: none;
+  }
+  #homeLink {
+    display:none;
   }
 }

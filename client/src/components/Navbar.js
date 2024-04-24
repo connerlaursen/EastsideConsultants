@@ -41,8 +41,14 @@ function Navbar() {
           <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>☰</button>
           {/* Navigation links */}
           <ul className={`navLinks ${isOpen ? 'open' : ''}`}>
+          <li id='homeLink' className={`nav-item ${page === 'Home' ? 'active' : ''}`} onClick={handleClick}>
+              <a className="nav-link">Home</a>
+            </li>
             <li className={`nav-item ${page === 'Services' ? 'active' : ''}`} onClick={handleClick}>
               <a className="nav-link">Services</a>
+            </li>
+            <li className={`nav-item ${page === 'Projects' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Projects</a>
             </li>
             <li className={`nav-item ${page === 'Leadership' ? 'active' : ''}`}>
               <a className="nav-link" onClick={handleClick}>Leadership</a>
@@ -63,115 +69,6 @@ function Navbar() {
               <a className="nav-link" onClick={handleClick}>Request a Quote</a>
             </li>
             </ul>
-          {/* </ul>
-          <ul className="navLinks">
-            {page === 'Services' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Services
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Services
-                </a>
-              </li>
-            )} */}
-            {/* {page === 'Projects' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Projects
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Projects
-                </a>
-              </li>
-            )} */}
-            {/* {page === 'Leadership' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Leadership
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Leadership
-                </a>
-              </li>
-            )}
-            {page === 'Careers' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Careers
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Careers
-                </a>
-              </li>
-            )}
-            {page === 'Contact' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Contact
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Contact
-                </a>
-              </li>
-            )}
-            {page === 'Testimonials' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Testimonials
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Testimonials
-                </a>
-              </li>
-            )}
-            {page === 'Property Links' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Property Links
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Property Links
-                </a>
-              </li>
-            )}
-            {page === 'Request a Quote' ? (
-              <li className="nav-item active">
-                <a className="nav-link" onClick={handleClick}>
-                  Request a Quote
-                </a>
-              </li>
-            ) : (
-              <li className="nav-item">
-                <a className="nav-link" onClick={handleClick}>
-                  Request a Quote
-                </a>
-              </li>
-            )} */}
-           
-          
-          
         </div>
       </nav>
       {
