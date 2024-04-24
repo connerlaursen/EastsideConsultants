@@ -64,7 +64,7 @@ people!” </p>
 “Sharp, professional and honest. I had a lot line question and they patiently laid out my options, even those that didn&#39;t include their services.
 Ultimately, I decided to not use their services because it would have been overkill for my situation. But I really
 appreciated their willingness to give honest advice even if it might cost them a job. If I ever need a surveyor, I&#39;ll talk with these folks first.” </p>
-<img className='img4' src={img4} alt="pic4" loading="lazy" />
+{/* <img className='img4' src={img4} alt="pic4" loading="lazy" /> */}
 </div>
 
 

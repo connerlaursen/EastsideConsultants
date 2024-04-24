@@ -9,7 +9,7 @@ import PropertyLinks from '../pages/PropertyLinks';
 import RequestAQuote from '../pages/RequestAQuote';
 import Testimonials from '../pages/Testimonials';
 import CompanyLogo from '../assets/images/Logo.jpg'; 
-import FormModal from '../components/FormModal'; // Import the FormModal component
+// import FormModal from '../components/FormModal'; //Import the FormModal component
 import '../App.css';
 
 function Navbar() {
@@ -20,11 +20,14 @@ function Navbar() {
     const { target } = click;
     setPage(target.textContent);
     setIsOpen(false); // Close the menu after clicking a link
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
   };
 
   const handleLogoClick = () => {
     setPage('Home'); // Set the page to 'Home' when the logo is clicked
     setIsOpen(false); // Close the menu after clicking the logo
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scrolling to top
+  
   };
 
   return (
