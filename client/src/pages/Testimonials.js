@@ -29,7 +29,7 @@ in oft inhospitable terrain and inclement weather. I recommend Eastside Consulti
 
 
 
-<img className='img2' src={img2} alt="pic2" />
+{/* <img className='img2' src={img2} alt="pic2" /> */}
 
 </div>
 
@@ -37,7 +37,7 @@ in oft inhospitable terrain and inclement weather. I recommend Eastside Consulti
 <h5 className="testimonialsTitle"> Gregg F. </h5> 
 <p className="testimonialsDescription"> “Rob and team were great to work with over the past several years....reasonable charges and reasonable
 people!” </p>
-<img className='img3' src={img3} alt="pic3" />
+{/* <img className='img3' src={img3} alt="pic3" /> */}
 
 </div>
 <div className ='shortTestimonialsContainer'>
@@ -64,7 +64,7 @@ people!” </p>
 “Sharp, professional and honest. I had a lot line question and they patiently laid out my options, even those that didn&#39;t include their services.
 Ultimately, I decided to not use their services because it would have been overkill for my situation. But I really
 appreciated their willingness to give honest advice even if it might cost them a job. If I ever need a surveyor, I&#39;ll talk with these folks first.” </p>
-<img className='img4' src={img4} alt="pic4" />
+{/* <img className='img4' src={img4} alt="pic4" /> */}
 </div>
 
 
