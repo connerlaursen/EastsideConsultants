@@ -464,7 +464,46 @@ nav ul {
 
 }
 
+/* projects page */
 
+.projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  height: 90vh;
+  padding-top: 95px;
+}
+
+.projectsHeader {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsTitle {
+  width: 70%;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+
+}
+.projectsImg {
+
+  width: 800px;
+  height: 500px;
+  margin: 50px;
+}
 
 /* modal for form */
 
