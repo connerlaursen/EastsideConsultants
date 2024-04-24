@@ -45,7 +45,7 @@ people!” </p>
   
 <div className ='testimonial'>
 <h5 className="testimonialsTitle"> Mike A. </h5>
-<p className="testimonialsDescription"> “Always on time, I’m glad I worked with Ron and Rob”</p>
+<p className="testimonialsDescription"> “Always on time, I'm glad I worked with Ron and Rob”</p>
 
 
 </div>
