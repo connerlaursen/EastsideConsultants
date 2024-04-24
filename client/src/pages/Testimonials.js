@@ -29,7 +29,7 @@ in oft inhospitable terrain and inclement weather. I recommend Eastside Consulti
 
 
 
-<img className='img2' src={img2} alt="pic2" loading="lazy"/>
+{/* <img className='img2' src={img2} alt="pic2" loading="lazy"/> */}
 
 </div>
 
@@ -37,7 +37,7 @@ in oft inhospitable terrain and inclement weather. I recommend Eastside Consulti
 <h5 className="testimonialsTitle"> Gregg F. </h5> 
 <p className="testimonialsDescription"> “Rob and team were great to work with over the past several years....reasonable charges and reasonable
 people!” </p>
-<img className='img3' src={img3} alt="pic3" loading="lazy" />
+{/* <img className='img3' src={img3} alt="pic3" loading="lazy" /> */}
 
 </div>
 <div className ='shortTestimonialsContainer'>
