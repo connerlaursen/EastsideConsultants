@@ -128,10 +128,6 @@ header h1 {
   font-size: 2em;
 }
 
-nav ul {
-  list-style: none;
-  margin-top: 20px;
-}
 
 section {
   margin-bottom: 40px;
@@ -149,6 +145,8 @@ section {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin:30px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 
@@ -258,6 +256,11 @@ section {
   cursor: pointer; 
 }
 
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
 
 
 
@@ -306,6 +309,7 @@ section {
 /* testimonials page */
 
 .testimonialsWrapper {
+  margin-top: 95px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -554,44 +558,6 @@ section {
 
 
 
-/* form page*/
-
-/* Styles for the form within the modal */
-.formcarry-container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Adjust width and spacing of form elements */
-.formcarry-container form input,
-.formcarry-container form textarea {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-}
-
-/* Increase the height of the textareas if needed */
-.formcarry-container form textarea {
-  height: 60px;
-}
-
-.formcarry-container form button[type="submit"] {
-  background-color: darkgreen; /* Green background */
-  color: white;
-  padding: 10px 20px; /* Padding for the button */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer;
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
-}
-
-/* Hover effect for the button */
-.formcarry-container form button[type="submit"]:hover {
-  background-color: rgb(0, 80, 0); /* Darker green on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
-}
 
 
 
@@ -640,6 +606,77 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 
 /* request a quote page */
+
+/* Styles for the form within the modal */
+.formcarry-container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align items horizontally */
+  
+}
+
+/* Adjust width and spacing of form elements */
+.formcarry-container form input,
+.formcarry-container form textarea {
+  width: 30%; /* Set width to 25% for two elements per line */
+  min-width: 30%;
+  max-width: 67%;
+  max-height: 25vh;
+  display: inline-block; /* Display form elements next to each other */
+  margin: 2%; /* Add some space between form elements */
+  margin-bottom: 15px; /* Add some space between form elements */
+}
+
+/* Increase the height of the textareas if needed */
+
+
+.formcarry-container form button[type="submit"] {
+  background-color: darkgreen; /* Green background */
+  color: white;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Hover effect for the button */
+.formcarry-container form button[type="submit"]:hover {
+  background-color: rgb(0, 80, 0); /* Darker green on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+
+
+/* Adjust width and spacing of form elements */
+.formcarry-container form .form-group {
+  width: calc(50% - 2.5%); /* Set width to 50% for two elements per line with margin */
+  display: inline-block; /* Display form elements next to each other */
+  flex-grow: 1; /* Allow items to grow and occupy available space */
+  margin-right: 2.5%; /* Add some space between form elements */
+  margin-bottom: 15px; /* Add some space between form elements */
+  
+}
+.formcarry-container form .form-group:last-child {
+  margin-right: 0; /* Remove margin-right for the last element */
+}
+
+/* Increase the height of the textareas if needed */
+.formcarry-container form textarea {
+  height: 60px; /* Increase the height of textareas */
+}
+
+.formcarry-container form button[type="submit"] {
+  width: 100%; /* Button takes full width */
+}
+
+/* Hover effect for the button */
+.formcarry-container form button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
 
 
 .formSection {
@@ -779,6 +816,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .bbb-section {
@@ -851,125 +889,304 @@ footer {
 
 /* responsiveness add code below*/
 
-/* Global Styles */
+@media screen and (max-width: 1200px) and (min-width: 901px) {
 
-/* Mobile devices */
-@media only screen and (max-width: 600px) {
-  body {
-    background-size: cover;
+  .logo-image {
+    width: 300px; /* Adjusted width for smaller screens */
+    
+  }
+  
+  .navLinks {
+    width:90vw;
+    padding:0px;
+    justify-content: center;
+   
+    
+  }
+  .nav-link {
+   
+    font-size: small;
   }
 
-  .navWrapper {
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
+  img.map {
+    width: 45vw; /* Adjusted width for smaller screens */
+    margin-bottom: 20px auto; /* Adjusted margin for smaller screens */
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+
+/* Global Styles */
+@media (max-width: 900px) {
+
+
+/* nav bar */
+.navWrapper {
+  height: auto; /* Adjusted height for smaller screens */
+  padding: 0;
+}
+
+.logo-image {
+  width: 350px; /* Adjusted width for smaller screens */
+  max-width: 65vw;
+  max-height: 12vh;
+  margin-right:20vw;
+  position:sticky;
+}
+
+.navLinks {
+  display: none; /* Hide the nav links initially */
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  top: 50px; /* Adjusted top position */
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 20px;
+  z-index: 999; /* Ensure navLinks are on top */
+}
+
+.menu-toggle {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 3rem;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navLinks.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  margin: 10px 0;
+}
+
+
+/* careers page */
+
+  .careersWrapper {
+    padding-top: 60px; /* Adjusted padding for smaller screens */
+   
+  }
+
+  .careersTitle {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+  .job {
+    width: 80%; /* Adjusted width for smaller screens */
+    margin-top: 75px;
+    margin-bottom: 90px;
+  }
+  
+
+  /* services page */
+
+  .servicesWrapper {
+    padding-top: 80px; /* Adjusted padding for smaller screens */
+  }
+
+  
+  h1.servicesHeader {
+
+    font-size:x-large;
+  }
+
+  h5.servicesTitle {
+    width: 90%; /* Increase width for better readability */
+    text-align: center; /* Center align titles */
+    text-justify: center;
+    margin: 10px auto; /* Center titles horizontally */
+    margin-left: 10px auto;
+    margin-right: 10px auto;
+  }
+
+  .servicesListBackground {
+    width: 90%; /* Adjusted width for smaller screens */
+    margin: 20px auto; /* Center the list horizontally */
+  }
+
+  .servicesListItem {
+    flex-basis: calc(100% - 40px); /* Single item per row for mobile */
+    margin: 10px 0; /* Adjusted margin for smaller screens */
+  }
+
+  .servicesList {
+    columns: 1; /* Display list items in a single column */
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    width: 100%; /* Adjusted width for smaller screens */
+    margin: 10px auto; /* Remove left margin */
+    padding: 10px auto;
+    text-justify: center;
+  }
+  ul.servicesList {
+    columns: 1; /* Display list items in a single column */
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    width: 60vw; /* Adjusted width for smaller screens */
+    margin: 10px auto; /* Remove left margin */
+    padding: 0px;
+    text-justify: center;
+  }
+
+  .servicesList li {
+    margin-bottom: 12px; /* Reduced margin for smaller screens */
+    padding-bottom: 10px;
+    margin-left: 0; /* Remove left margin */
+    text-align: center; /* Center align list items */
+    text-justify: center;
+  }
+
+  /* contact page */
+
+  .contactWrapper {
+    padding-top: 50px; /* Adjusted padding for smaller screens */
+  }
+
+  .contactTitle {
+    width: 90%; /* Adjusted width for smaller screens */
+    margin-left: auto; /* Center align the title */
+    margin-right: auto; /* Center align the title */
+  }
+
+  h1.contactHeader {
+
+    margin-top:30px;
+  }
+
+  .contactDescription {
+    margin: 20px; /* Adjusted margin for smaller screens */
+  }
+
+  .contactDetails {
+    flex-direction: column; /* Stack contact info and map vertically */
+    align-items: center; /* Center align items horizontally */
+    width: 95%; /* Adjusted width for smaller screens */
+    margin-left: auto; /* Center align the details */
+    margin-right: auto; /* Center align the details */
+  }
+
+  .contactInfo {
+    width: 90%; /* Adjusted width for smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    margin-top:0px;
+    margin-left: 20px auto;
+    margin-right:20px auto;
+  }
+
+  img.map {
+    width: 95vw; /* Adjusted width for smaller screens */
+    margin-bottom: 20px auto; /* Adjusted margin for smaller screens */
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .bottomContactText {
+    margin: 5vh; /* Adjusted margin for smaller screens */
+  }
+
+
+  /* leadership page */
+
+  p.leadershipDescription{
+    margin-left:25px;
+    margin-right: 25px;
+  }
+
+  h5.leadershipTitle {
+    font-size: medium;
+    margin-left: 25px;
+  }
+
+  h1.leadershipHeader {
+    width: 60vw;
+    margin:1px auto;
     
   }
 
-  .navLinks {
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    font-size: 14px;
-    padding:0;
+
+  /* testimonials page */
+
+  div.testimonial {
+    width: 80%; /* Adjust as needed */
+    
   }
 
-  .logo-image {
-    width: 100%;
+  .testimonial img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    margin: 55px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-  .nav-item {
-    margin-bottom: 1px; /* Adjust spacing between navigation items */
-  
+  .testimonialsHeader {
+    margin-top:10vh;
   }
 
-  .nav-item:hover {
-    transform: translateY(0);
+  .shortTestimonialsContainer {
+
+    width: 90%;
   }
-  .nav-item.active a {
-  color: darkgreen; /* Change color for the active item */
-  /* Add any additional styling for the active item */
+
+  /* property links page */
+  .propertySection {
+  width:80%;
+  margin: 20px auto;
+  }
+
+  .propertySection img {
+    min-width: 200px;
+  }
+
+
+  /* request a quote page */
+  .formcarry-container {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  .quoteParagraph {
+    margin-top: 10px;
+  }
+
+  /* footer */
+
+ 
+
+
 }
 
-  .aboutWrapper,
-  .contactWrapper,
-  .careersWrapper,
-  .projectWrapper,
-  .leadershipWrapper,
-  .testimonialsWrapper,
-  .servicesWrapper,
-  .homeWrapper {
-    padding-top: 60px; /* Adjust spacing for content */
-  }
 
-  .footer-container img {
-    max-width: 80%; /* Adjust the logo size in the footer */
-  }
 
-  .servicesListItem,
-  .job,
-  .contactInfo,
-  .testimonial img,
-  .img1 {
-    max-width: 100%;
-  }
 
-  .contactDescription,
-  .contactTitle,
-  .map,
-  .bottomContactText,
-  .careersTitle,
-  .job,
-  .careerSection,
-  .projectSection,
-  .leadershipTitle,
-  .leadershipDescription,
-  .servicesTitle,
-  .servicesListItem,
-  .servicesDescription,
-  .servicesListTitle,
-  .testimonial,
-  .testimonialsTitle,
-  .testimonialsDescription,
-  .servicesListBackground,
-  .formcarry-container form {
-    width: 100%;
-    margin-left: 0;
-  }
-}
-
-/* Tablets and small screens */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .navLinks {
-    gap: 1rem;
-  }
-
-  .servicesList,
-  .servicesList li {
-    margin-left: 0;
-  }
-}
-
-/* Larger screens */
-@media only screen and (min-width: 1025px) {
-  .navLinks {
-    justify-content: flex-end;
-  }
-
-  .aboutWrapper,
-  .contactWrapper,
-  .careersWrapper,
-  .projectWrapper,
-  .leadershipWrapper,
-  .testimonialsWrapper,
-  .servicesWrapper,
-  .homeWrapper {
-    padding-top: 95px;
-  }
-
-  .servicesList,
-  .servicesList li {
-    margin-left: 30px;
+@media screen and (min-width: 900px) {
+  .menu-toggle {
+    display: none;
   }
 }

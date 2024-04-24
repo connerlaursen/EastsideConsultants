@@ -14,22 +14,53 @@ import '../App.css';
 
 function Navbar() {
   const [page, setPage] = useState('Home');
+  const [isOpen, setIsOpen] = useState(false); // State for toggling menu
 
   const handleClick = (click) => {
     const { target } = click;
     setPage(target.textContent);
+    setIsOpen(false); // Close the menu after clicking a link
   };
+
   const handleLogoClick = () => {
     setPage('Home'); // Set the page to 'Home' when the logo is clicked
+    setIsOpen(false); // Close the menu after clicking the logo
   };
 
   return (
     <div>
       <nav>
-      <div className="navWrapper">
+        <div className="navWrapper">
           <div className="logo" onClick={handleLogoClick}>
             <img src={CompanyLogo} alt="Company Logo" className="logo-image" />
           </div>
+          {/* Hamburger menu button */}
+          <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>☰</button>
+          {/* Navigation links */}
+          <ul className={`navLinks ${isOpen ? 'open' : ''}`}>
+            <li className={`nav-item ${page === 'Services' ? 'active' : ''}`} onClick={handleClick}>
+              <a className="nav-link">Services</a>
+            </li>
+            <li className={`nav-item ${page === 'Leadership' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Leadership</a>
+            </li>
+            <li className={`nav-item ${page === 'Careers' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Careers</a>
+            </li>
+            <li className={`nav-item ${page === 'Contact' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Contact</a>
+            </li>
+            <li className={`nav-item ${page === 'Testimonials' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Testimonials</a>
+            </li>
+            <li className={`nav-item ${page === 'Property Links' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Property Links</a>
+            </li>
+            <li className={`nav-item ${page === 'Request a Quote' ? 'active' : ''}`}>
+              <a className="nav-link" onClick={handleClick}>Request a Quote</a>
+            </li>
+            </ul>
+          {/* </ul>
           <ul className="navLinks">
             {page === 'Services' ? (
               <li className="nav-item active">
@@ -43,8 +74,8 @@ function Navbar() {
                   Services
                 </a>
               </li>
-            )}
-            {page === 'Projects' ? (
+            )} */}
+            {/* {page === 'Projects' ? (
               <li className="nav-item active">
                 <a className="nav-link" onClick={handleClick}>
                   Projects
@@ -56,8 +87,8 @@ function Navbar() {
                   Projects
                 </a>
               </li>
-            )}
-            {page === 'Leadership' ? (
+            )} */}
+            {/* {page === 'Leadership' ? (
               <li className="nav-item active">
                 <a className="nav-link" onClick={handleClick}>
                   Leadership
@@ -134,9 +165,9 @@ function Navbar() {
                   Request a Quote
                 </a>
               </li>
-            )}
+            )} */}
            
-          </ul>
+          
           
         </div>
       </nav>

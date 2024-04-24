@@ -8,15 +8,21 @@ function Careers() {
 
    
        
-          <h1 className="careersHeader">Open Positions</h1>
+          <h1 className="careersHeader">Careers</h1>
           <h5 className="careersTitle"> <br></br> </h5>
           <div className="job">
-            <h3>Land Surveyor</h3>
-            <p>We are seeking a skilled land surveyor...</p>
-            <a href="#">Apply Now</a>
+            <h3>We’re always looking for great folks to join our amazing team!</h3>
+            <p>Send your cover letter and resume to us</p>
+            <a href="mailto:kristy@eastsideconsultants.com">Email us</a>
         
-          {/* Add more job listings here */}
+          
         </div>
+
+        
+        
+        
+          
+      
 
         
 
