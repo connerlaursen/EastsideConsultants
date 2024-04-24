@@ -24,7 +24,7 @@ function Projects() {
 <h2 className="propertyTitle">CFEDS.org</h2>
 
 <ul className='firstLink'>
-    <li><a href="https://cfsnsps.com/" target="_blank" rel="noopener noreferrer">CFEDS - Certified Federal Surveyor</a></li>
+    <li><a href="https://cfeds.org/" target="_blank" rel="noopener noreferrer">CFEDS - Certified Federal Surveyor</a></li>
     <li>Explore the site for details on becoming a Certified Federal Surveyor and related information.</li>
 </ul>
 <img className='img1' src={img4} alt="pic4" />
