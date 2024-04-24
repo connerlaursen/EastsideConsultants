@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EastsideConsultants/static/css/main.3db0232e.css",
+    "main.css": "/EastsideConsultants/static/css/main.fa03610a.css",
     "main.js": "/EastsideConsultants/static/js/main.7f435829.js",
     "static/js/787.d5fa4d18.chunk.js": "/EastsideConsultants/static/js/787.d5fa4d18.chunk.js",
     "static/media/img4.jpg": "/EastsideConsultants/static/media/img4.5a1205cb827be383df88.jpg",
@@ -11,12 +11,12 @@
     "static/media/bbb.png": "/EastsideConsultants/static/media/bbb.c854c04387509128bfdd.png",
     "static/media/Logo.jpg": "/EastsideConsultants/static/media/Logo.4cfcad7adee10e5d5a6b.jpg",
     "index.html": "/EastsideConsultants/index.html",
-    "main.3db0232e.css.map": "/EastsideConsultants/static/css/main.3db0232e.css.map",
+    "main.fa03610a.css.map": "/EastsideConsultants/static/css/main.fa03610a.css.map",
     "main.7f435829.js.map": "/EastsideConsultants/static/js/main.7f435829.js.map",
     "787.d5fa4d18.chunk.js.map": "/EastsideConsultants/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3db0232e.css",
+    "static/css/main.fa03610a.css",
     "static/js/main.7f435829.js"
   ]
 }
