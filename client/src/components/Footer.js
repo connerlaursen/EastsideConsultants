@@ -4,6 +4,7 @@ import '../App.css';
 
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer>
       <div className="footer-container">
@@ -18,7 +19,7 @@ function Footer() {
       <p>BBB accredited since 2007</p>
     </div>
       </div>
-      <p className="copyright">&copy; 2024 Eastside Consultants, Inc. All rights reserved.</p>
+      <p className="copyright">&copy; {currentYear} Eastside Consultants, Inc. All rights reserved.</p>
     </footer>
   );
 }
