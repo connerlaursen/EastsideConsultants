@@ -509,32 +509,25 @@ nav ul {
 }
 .projectsImgLandscape {
 
-  width: 800px;
-  height: 500px;
+  max-width: 80%;
   margin: 50px;
   margin-top:10px;
   border: 2px solid #ccc; 
   border-radius: 5px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-  
-
-
 
 }
 .projectsImgPortrait {
 
-  width: 600px;
-  height: 800px;
+  max-width:50%;
   margin: 50px;
   margin-top:10px;
   border: 2px solid #ccc; 
   border-radius: 5px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
   
-
-
-
 }
+
 .projectsParagraph {
   width: 70%;
   font-size: 16px;
@@ -996,6 +989,7 @@ footer {
    
     font-size: small;
   }
+
 
   img.map {
     width: 45vw; /* Adjusted width for smaller screens */
