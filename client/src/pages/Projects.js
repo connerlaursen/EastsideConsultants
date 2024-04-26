@@ -6,6 +6,13 @@ import img8 from '../assets/images/EasementDescription.png';
 import img9 from '../assets/images/EasementExhibit.png'; 
 import img10 from '../assets/images/Topographic1.png'; 
 import img11 from '../assets/images/Topographic2.png'; 
+import img12 from '../assets/images/gradingPlan.png'; 
+import img13 from '../assets/images/shortPlat.png'; 
+import img14 from '../assets/images/stormSheet1.png'; 
+import img15 from '../assets/images/stormSheet2.png'; 
+import img16 from '../assets/images/utility.png'; 
+import img17 from '../assets/images/utilitywater1.png'; 
+import img18 from '../assets/images/utilitywater2.png'; 
 import Footer from '../components/Footer';
 
 function Projects() {
@@ -39,9 +46,16 @@ mountainous terrain.</p>
         <h1 className="projectsHeader">Civil Engineering Services</h1>
         <h5 className="projectsTitle"> <br></br> </h5>
         <h5 className = 'projectsHeading'>Grading Plan</h5>
+        <img className='projectsImgLandscape' src={img12} alt="pic5" loading="lazy" />
         <h5 className = 'projectsHeading'>Storm Detention / Water Quality Design</h5>
+        <img className='projectsImgLandscape' src={img14} alt="pic5" loading="lazy" />
+        <img className='projectsImgLandscape' src={img15} alt="pic5" loading="lazy" />
         <h5 className = 'projectsHeading'>Utility Design</h5>
+        <img className='projectsImgLandscape' src={img16} alt="pic5" loading="lazy" />
+        <img className='projectsImgLandscape' src={img17} alt="pic5" loading="lazy" />
+        <img className='projectsImgLandscape' src={img18} alt="pic5" loading="lazy" />
         <h5 className = 'projectsHeading'>Short Plat Design</h5>
+        <img className='projectsImgLandscape' src={img13} alt="pic5" loading="lazy" />
         </div>
         <br></br>
         <br></br>

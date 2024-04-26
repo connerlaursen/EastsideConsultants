@@ -1153,6 +1153,10 @@ footer {
     text-justify: center;
   }
 
+  /* projects page */
+.projectsHeader{
+  margin-top:0 auto;
+}
   /* contact page */
 
   .contactWrapper {
