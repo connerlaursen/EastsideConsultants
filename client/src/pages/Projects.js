@@ -28,17 +28,34 @@ boundary lines for the U.S. Forest Service, and other large landowners in heavil
 mountainous terrain.</p>
   
         <h5 className = 'projectsHeading'>Boundary Survey</h5>
-        <img className='projectsImgLandscape' src={img7} alt="pic7" loading="lazy" />
+ 
+        <a className='projectLinkOutlineLandscape' href={img7} target="_blank">
+          <img className='projectsImgLandscape'  src={img7} alt="Boundary Survey" loading="lazy" />
+        </a>
+        
         <h5 className = 'projectsHeading'>Topographic Survey & Mapping</h5>
+        <a className='projectLinkOutlineLandscape' href={img10} target="_blank">
         <img className='projectsImgLandscape' src={img10} alt="pic10" loading="lazy" />
+        </a>
+        <a className='projectLinkOutlineLandscape' href={img11} target="_blank">
         <img className='projectsImgLandscape' src={img11} alt="pic11" loading="lazy" /> 
+        </a>
         <h5 className = 'projectsHeading'>Boundary Line Adjustment</h5>
+        <a className='projectLinkOutlineLandscape' href={img5} target="_blank">
         <img className='projectsImgLandscape' src={img5} alt="pic5" loading="lazy" />
+        </a>
+        <a className='projectLinkOutlineLandscape' href={img6} target="_blank">
         <img className='projectsImgLandscape' src={img6} alt="pic6" loading="lazy" />
+        </a>
+
         <h5 className = 'projectsHeading'>Easement Description</h5>
+        <a className='projectLinkOutlinePortrait' href={img8} target="_blank">
         <img className='projectsImgPortrait' src={img8} alt="pic8" loading="lazy" />
+        </a>
         <h5 className = 'projectsHeading'>Easement Exhibit</h5>
+        <a className='projectLinkOutlinePortrait' href={img9} target="_blank">
         <img className='projectsImgPortrait' src={img9} alt="pic9" loading="lazy" />
+        </a>
        
         </div>
 
@@ -46,26 +63,33 @@ mountainous terrain.</p>
         <h1 className="projectsHeader">Civil Engineering Services</h1>
         <h5 className="projectsTitle"> <br></br> </h5>
         <h5 className = 'projectsHeading'>Grading Plan</h5>
+        <a className='projectLinkOutlineLandscape' href={img12} target="_blank">
         <img className='projectsImgLandscape' src={img12} alt="pic5" loading="lazy" />
+        </a>
         <h5 className = 'projectsHeading'>Storm Detention / Water Quality Design</h5>
+        <a className='projectLinkOutlineLandscape' href={img14} target="_blank">
         <img className='projectsImgLandscape' src={img14} alt="pic5" loading="lazy" />
+        </a>
+        <a className='projectLinkOutlineLandscape' href={img15} target="_blank">
         <img className='projectsImgLandscape' src={img15} alt="pic5" loading="lazy" />
+        </a>
         <h5 className = 'projectsHeading'>Utility Design</h5>
+        <a className='projectLinkOutlineLandscape' href={img16} target="_blank">
         <img className='projectsImgLandscape' src={img16} alt="pic5" loading="lazy" />
+        </a>
+        <a className='projectLinkOutlineLandscape' href={img17} target="_blank">
         <img className='projectsImgLandscape' src={img17} alt="pic5" loading="lazy" />
+        </a>
+        <a className='projectLinkOutlineLandscape' href={img18} target="_blank">
         <img className='projectsImgLandscape' src={img18} alt="pic5" loading="lazy" />
+        </a>
         <h5 className = 'projectsHeading'>Short Plat Design</h5>
+        <a className='projectLinkOutlineLandscape' href={img13} target="_blank">
         <img className='projectsImgLandscape' src={img13} alt="pic5" loading="lazy" />
+        </a>
         </div>
         <br></br>
         <br></br>
-
-
-
-
-
-
-
       <footer>
         
       <Footer />
