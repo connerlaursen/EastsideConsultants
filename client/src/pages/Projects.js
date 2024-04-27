@@ -62,6 +62,11 @@ mountainous terrain.</p>
         <div className="projectsSection">
         <h1 className="projectsHeader">Civil Engineering Services</h1>
         <h5 className="projectsTitle"> <br></br> </h5>
+        <p className ='projectsParagraph'>Civil Engineering specializes in the design of road, grading, and 
+           construction storm water pollution prevention plans. We also perform infrastructure design of stormwater, 
+           water, and sewer plans. Our projects range from single family residence submittal packages to large 
+           subdivision infrastructure design. This includes townhomes, multi family, commercial, short 
+           plats, etc. for private homeowners to large developers and cities.</p>
         <h5 className = 'projectsHeading'>Grading Plan</h5>
         <a className='projectLinkOutlineLandscape' href={img12} target="_blank">
         <img className='projectsImgLandscape' src={img12} alt="pic5" loading="lazy" />

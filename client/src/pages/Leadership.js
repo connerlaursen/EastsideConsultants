@@ -14,12 +14,11 @@ function leadership() {
         and historical data relative to a parcel. </p>
       
         <h5 className="leadershipTitle">Ronald S. Frederiksen, P.E., L.S.I.T, Principal  </h5>
-      <p className="leadershipDescription">Ron graduated from the University of Idaho in 1997 with a degree in Civil 
-      Engineering. His experience over the past 6 years is in both engineering and surveying. He has participated in both 
-      residential and commercial developments in various jurisdictions, including plat layouts, roadway designs, water and sewer 
-      designs, temporary erosion control plans, grading and storm drainage designs, drainage and conveyance design, detention 
-      calculations, and preparation of Level 1 and Technical Information Reports under both the 1990 and 1998 King County Surface 
-      Water Design Manuals guidelines and the Department of Ecology's Stormwater Manual.  </p>
+      <p className="leadershipDescription">Ron graduated from the University of Idaho in 1997 with a degree in Civil Engineering.
+        His experience over the years is in both engineering and surveying. He has participated in both residential, multifamily and
+        commercial developments in various jurisdictions, including plat layouts, roadway designs, water and sewer designs, temporary
+        erosion control plans, grading and storm drainage designs, drainage and conveyance design, detention calculations, and preparation 
+        of Level 1 and Technical Information Reports under various County Surface Water Design Manuals.  </p>
 
       <h5 className="leadershipTitle">Steven W. Kitz, P.E./P.L.S., Principal   </h5>
       <p className="leadershipDescription">After graduating with a degree in Civil Engineering from the University of Washington
