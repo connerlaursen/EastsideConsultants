@@ -88,6 +88,7 @@ body {
 
 .map{
 margin: 20px;
+margin-top:30px;
 flex-grow:1;
 }
 
@@ -1196,18 +1197,13 @@ footer {
   .contactInfo {
     width: 90%; /* Adjusted width for smaller screens */
     margin-bottom: 20px; /* Adjusted margin for smaller screens */
-    margin-top:0px;
+    margin-top: 0px;
     margin-left: 20px auto;
     margin-right:20px auto;
   }
 
   img.map {
     width: 95vw; /* Adjusted width for smaller screens */
-    margin-bottom: 20px auto; /* Adjusted margin for smaller screens */
-    margin-top: 0 auto;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    align-items: center;
     justify-items: center;
   }
 
