@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EastsideConsultants/static/css/main.3554c51b.css",
-    "main.js": "/EastsideConsultants/static/js/main.5379d493.js",
+    "main.css": "/EastsideConsultants/static/css/main.ec79e550.css",
+    "main.js": "/EastsideConsultants/static/js/main.b1f1a647.js",
     "static/js/787.d5fa4d18.chunk.js": "/EastsideConsultants/static/js/787.d5fa4d18.chunk.js",
     "static/media/img4.jpg": "/EastsideConsultants/static/media/img4.5a1205cb827be383df88.jpg",
     "static/media/img2.jpg": "/EastsideConsultants/static/media/img2.6400daf620149ade00a6.jpg",
@@ -25,12 +25,12 @@
     "static/media/EasementDescription.png": "/EastsideConsultants/static/media/EasementDescription.c69ead6a32630ad21d2d.png",
     "static/media/Logo.jpg": "/EastsideConsultants/static/media/Logo.4cfcad7adee10e5d5a6b.jpg",
     "index.html": "/EastsideConsultants/index.html",
-    "main.3554c51b.css.map": "/EastsideConsultants/static/css/main.3554c51b.css.map",
-    "main.5379d493.js.map": "/EastsideConsultants/static/js/main.5379d493.js.map",
+    "main.ec79e550.css.map": "/EastsideConsultants/static/css/main.ec79e550.css.map",
+    "main.b1f1a647.js.map": "/EastsideConsultants/static/js/main.b1f1a647.js.map",
     "787.d5fa4d18.chunk.js.map": "/EastsideConsultants/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3554c51b.css",
-    "static/js/main.5379d493.js"
+    "static/css/main.ec79e550.css",
+    "static/js/main.b1f1a647.js"
   ]
 }
