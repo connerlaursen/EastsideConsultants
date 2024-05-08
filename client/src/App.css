@@ -347,10 +347,10 @@ nav ul {
   height: 150px; /* Adjust as needed */
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px; /* Space between image and text */
-  margin-top: 10px;
   border: 3px solid white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: block; /* Make the image a block element */
+  margin: 0 auto;
 }
 
 .shortTestimonialsContainer {
@@ -1245,6 +1245,8 @@ footer {
     justify-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: block; /* Make the image a block element */
+    margin: 0 auto;
   }
 
   .testimonialsHeader {
